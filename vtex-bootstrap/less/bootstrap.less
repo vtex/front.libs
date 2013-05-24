@@ -8,56 +8,68 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+// **************************************************************
+// ******** VTEX .vtex-bootstrap ********************************
+// Remove the "//" from the line of the component you want to use
+// By default you'll get only the basics (reset, page struture, type, tables, forms, buttons and alerts)
+// RESPONSIVE INCLUDED
+// **************************************************************
+
 // Core variables and mixins
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
-@import "mixins.less";
 
 // CSS Reset
-@import "reset.less";
-
+.vtex-bootstrap {
+	@import "reset.less";
+}
 // Grid system and page structure
-@import "scaffolding.less";
-@import "grid.less";
-@import "layouts.less";
+@import "scaffolding.less"; //Needs to be customized directly (.vtex-bootstrap)
 
-// Base CSS
-@import "type.less";
-@import "code.less";
-@import "forms.less";
-@import "tables.less";
+.vtex-bootstrap {
+	@import "grid.less";
+	//@import "layouts.less";
 
-// Components: common
-@import "sprites.less";
-@import "dropdowns.less";
-@import "wells.less";
-@import "component-animations.less";
-@import "close.less";
+	// Base CSS
+	@import "type.less";
+	//@import "code.less";
+	@import "forms.less";
+	@import "tables.less";
 
-// Components: Buttons & Alerts
-@import "buttons.less";
-@import "button-groups.less";
-@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+	// Components: common
+	//@import "sprites.less";
+	@import "dropdowns.less";
+	@import "wells.less";
+	@import "component-animations.less";
+	//@import "close.less";
 
-// Components: Nav
-@import "navs.less";
-@import "navbar.less";
-@import "breadcrumbs.less";
-@import "pagination.less";
-@import "pager.less";
+	// Components: Buttons & Alerts
+	@import "buttons.less";
+	//@import "button-groups.less";
+	@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
 
-// Components: Popovers
-@import "modals.less";
-@import "tooltip.less";
-@import "popovers.less";
+	// Components: Nav
+	//@import "navs.less";
+	//@import "navbar.less";
+	//@import "breadcrumbs.less";
+	//@import "pagination.less";
+	//@import "pager.less";
 
-// Components: Misc
-@import "thumbnails.less";
-@import "media.less";
-@import "labels-badges.less";
-@import "progress-bars.less";
-@import "accordion.less";
-@import "carousel.less";
-@import "hero-unit.less";
+	// Components: Popovers
+	//@import "modals.less";
+	//@import "tooltip.less";
+	//@import "popovers.less";
 
-// Utility classes
-@import "utilities.less"; // Has to be last to override when necessary
+	// Components: Misc
+	//@import "thumbnails.less";
+	//@import "media.less";
+	//@import "labels-badges.less";
+	//@import "progress-bars.less";
+	//@import "accordion.less";
+	//@import "carousel.less";
+	//@import "hero-unit.less";
+
+	// Utility classes
+	@import "utilities.less"; // Has to be last to override when necessary
+}
+
+@import "responsive.less"; //Needs to be customized directly (.vtex-bootstrap)
