@@ -1,0 +1,25 @@
+{
+  "name": "front-libs",
+  "version": "1.0.0",
+  "readmeFilename": "README.md",
+  "description": "A wrapper for front end libraries deployment.",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-vtex-deploy": "~0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vtex/front-libs.git"
+  },
+  "keywords": [
+    "grunt",
+    "coffee",
+    "less",
+    "livereload"
+  ],
+  "contributors": [
+    "Guilherme Rodrigues <gadr90@gmail.com>"
+  ],
+  "license": "MIT"
+}
