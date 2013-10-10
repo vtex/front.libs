@@ -275,7 +275,7 @@
             // act
             runs(function () {
                 changeHashTo('first-hash');
-                changeHashTo('second-hash', 200);
+                changeHashTo('second-hash', 300);
             });
 
             // assert
