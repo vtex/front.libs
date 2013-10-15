@@ -1,7 +1,6 @@
 (function () {
     window.vtex = window.vtex || {};
     window.vtex.events = window.vtex.events || {};
-    window.vtex.portal = 
     window.vtex.events = (function () {
 
         var listeners = window.vtex.events.listeners || {};
