@@ -80,7 +80,7 @@
         }
     };
 
-    vtex.portal.actions.onHashChange(function (newUrl) {
+    vtex.events.actions.onHashChange(function (newUrl) {
         var path = newUrl.substring(newUrl.indexOf(location.pathname));
 
         window.ga && ga(function() {
