@@ -71,7 +71,12 @@
             }
         };
     })();
-    window.vtex.portal = window.vtex.events;
+    
+    /* todo: alias provisório */
+    var portalContext = vtex.portal && vtex.portal.context;
+    vtex.portal = vtex.events;
+    vtex.portal.context = portalContext;
+    /* endtodo */
 
     window.eventData = function (attributeName) {
         return {
