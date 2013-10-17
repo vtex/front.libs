@@ -71,6 +71,7 @@
             }
         };
     })();
+    window.vtex.portal = window.vtex.events;
 
     window.eventData = function (attributeName) {
         return {
