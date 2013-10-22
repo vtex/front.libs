@@ -1,12 +1,12 @@
 {
   "name": "front-libs",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "readmeFilename": "README.md",
   "description": "A wrapper for front end libraries deployment.",
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-vtex-deploy": "~0.6.0"
+    "grunt-vtex-deploy": "~0.10.0"
   },
   "repository": {
     "type": "git",

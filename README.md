@@ -2,7 +2,7 @@
 
 A convenient aggregator for the front end libraries used in VTEX projects.
 
-Available at http://io.vtex.com.br/libs/v01-01-00-stable-1
+Available at http://io.vtex.com.br/front-libs/
 
 Libraries included:
 
