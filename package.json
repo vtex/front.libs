@@ -6,7 +6,7 @@
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-vtex-deploy": "~0.10.0"
+    "grunt-vtex-deploy": "~0.10.1"
   },
   "repository": {
     "type": "git",
