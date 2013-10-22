@@ -9,19 +9,19 @@ module.exports = (grunt) ->
 				["tmp-deploy"]
 
 		vtex_deploy:
-      main:
-        cwd: "dist"
-        upload:
-          root:
-            "/": "**"
+			main:
+				cwd: "dist"
+				upload:
+					root:
+						"/": "**"
 
-      walmart:
-        cwd: "dist/"
-        bucket: 'vtex-io-walmart'
-        requireEnvironmentType: 'stable'
-        upload:
-          root:
-            "/": "**"
+			walmart:
+				cwd: "dist/"
+				bucket: 'vtex-io-walmart'
+				requireEnvironmentType: 'stable'
+				upload:
+					root:
+						"/": "**"
 
 	grunt.loadNpmTasks name for name of pkg.dependencies when name[0..5] is 'grunt-'
 
