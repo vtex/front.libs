@@ -19,7 +19,9 @@
     "livereload"
   ],
   "contributors": [
-    "Guilherme Rodrigues <gadr90@gmail.com>"
+    "Guilherme Rodrigues <gadr90@gmail.com>",
+    "Breno Calazans <brenocalazans@gmail.com>",
+    "Guilherme Berger"
   ],
   "license": "MIT"
 }
