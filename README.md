@@ -16,6 +16,7 @@ Libraries included:
 - Dustjs-linkedin 2.2.2
 - Dustjs-linkedin-helpers 1.1.1
 - Curl 0.8.4
+- Flight (Standalone) 1.0.9
 
 ------
 
