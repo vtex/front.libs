@@ -12,17 +12,17 @@ module.exports = (grunt) ->
 			main:
 				cwd: "dist"
 				upload:
-					root:
-						"/": "**"
+          "/": "**"
 
 			walmart:
 				cwd: "dist/"
 				bucket: 'vtex-io-walmart'
 				requireEnvironmentType: 'stable'
 				upload:
-					root:
-						"/": "**"
+          "/": "**"
 
 	grunt.loadNpmTasks name for name of pkg.dependencies when name[0..5] is 'grunt-'
 
 	grunt.registerTask 'default', ['clean', 'vtex_deploy']
+	grunt.registerTask 'dist', []
+	grunt.registerTask 'test', []
