@@ -1,0 +1,19 @@
+{
+  "name": "front.libs",
+  "dependencies": {
+    "bootstrap": "~3.0.*",
+    "jquery": "~2.0.*",
+    "angular": "~1.2.*",
+    "angular-route": "~1.2.*",
+    "angular-resource": "~1.2.*",
+    "angular-cookies": "~1.2.*",
+    "angular-animate": "~1.2.*",
+    "angular-bootstrap": "~0.9.*",
+    "angular-translate": "~1.1.*",
+    "angular-translate-loader-static-files": "~0.1.*",
+    "underscore": "~1.5.*"
+  },
+  "resolutions": {
+    "angular": "1.2.*"
+  }
+}
