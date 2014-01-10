@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulário de Post Mortem</title>
+	<link rel="stylesheet" href="//io.vtex.com.br/front-libs/bootstrap/3.0.3/css/bootstrap.min.css" />
+	<style type="text/css">
+	form {
+		max-width: 640px;
+		padding: 15px;
+		margin: 0 auto;
+	}
+	fieldset.well {
+		margin-top: 20px;
+	}
+	fieldset.well legend {
+		border-bottom: 0;
+		margin-bottom: 5px;
+	}
+	fieldset {
+		margin-bottom: 30px;
+	}
+	.form-horizontal .control-label {font-size: 16px}
+	h1 {font-weight: 100}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<form class="form-horizontal"
+	method="post" name="0.1_FormWebToVtex" action="http://vtex.ds.vtexcrm.com.br/WebToVtex/Execute?idWebToVtex=75&amp;instanceId=e39d05f9-0c54-4469-a626-8bb5cff169f8" target="_blank" onsubmit="return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);">
+	<h1>Formulário de Post Mortem</h1>
+			<div class="alert alert-info"><strong><span class="glyphicon glyphicon-info-sign"></span> É necessário preencher todos os campos</strong></div>
+
+			<fieldset>
+				<legend>1. Projeto</legend>
+					<select class="form-control input-lg" name="PM_Projeto" id="PM_Projeto"><option value="">-- Escolha --</option><option value="CRM">CRM</option><option value="Checkout">Checkout</option><option value="DWT">DWT</option><option value="Fullfilment">Fullfilment</option><option value="KPI+Tracker">KPI Tracker</option><option value="License+Manager">License Manager</option><option value="Logger">Logger</option><option value="Logistics">Logistics</option><option value="Mail+Sender">Mail Sender</option><option value="PCI+Connector">PCI Connector</option><option value="Portal">Portal</option><option value="Profile+System">Profile System</option><option value="Request+Capture">Request Capture</option><option value="RnB">RnB</option><option value="Shipping+Notification">Shipping Notification</option><option value="Template+Render">Template Render</option><option value="VTEX+Channel">VTEX Channel</option><option value="VTEX+ID">VTEX ID</option></select>
+			</fieldset>
+
+			<fieldset class="well well-sm">
+			<legend>2. Data e hora</legend>
+
+			<div class="col-md-6">
+				<label class="col-md-2 control-label" for="PM_HoraInicio">Início</label>
+				<div class="col-md-10">
+						<input type="text" name="PM_HoraInicio" id="PM_HoraInicio" class="form-control input-lg">
+						<span class="help-block">Ex.: 2014-01-01T10:00:00</span>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<label class="col-md-2 control-label" for="PM_HoraFinal">Fim</label>
+				<div class="col-md-10">
+						<input type="text" name="PM_HoraFinal" id="PM_HoraFinal" class="form-control input-lg">
+						<span class="help-block">Ex.: 2014-01-01T10:00:00</span>
+				</div>
+			</div>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>3. Detalhes</legend>
+
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="textarea">Sintoma</label>
+					<div class="col-sm-10">
+						<textarea id="textarea" rows="3" name="PM_Sintoma" class="form-control"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="textarea2">Causa</label>
+					<div class="col-sm-10">
+						<textarea id="textarea2" rows="3" name="PM_Causa" class="form-control"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="textarea3">Ação</label>
+					<div class="col-sm-10">
+						<textarea id="textarea3" rows="3" name="PM_Acao" class="form-control"></textarea>
+					</div>
+				</div>
+			</fieldset>
+
+			<div class="clearfix">
+				<button type="submit" class="btn btn-primary btn-lg pull-right">Enviar Post Mortem</button>
+			</div>	
+			<hr>
+	</form>
+
+</div>
+
+</body>
+</html>
