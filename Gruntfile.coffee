@@ -23,6 +23,6 @@ module.exports = (grunt) ->
 
 	grunt.loadNpmTasks name for name of pkg.dependencies when name[0..5] is 'grunt-'
 
-	grunt.registerTask 'default', ['clean', 'vtex_deploy']
+	grunt.registerTask 'default', []
 	grunt.registerTask 'dist', []
 	grunt.registerTask 'test', []
