@@ -2,11 +2,14 @@
   "name": "front-libs",
   "version": "2.0.28",
   "readmeFilename": "README.md",
-  "description": "A wrapper for front end libraries deployment.",
-  "dependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-vtex-deploy": "~0.20.3"
+  "description": "A wrapper for assets deployment.",
+  "deploy": "dist/",
+  "devDependencies": {
+    "deploy-s3": "~0.1.0",
+    "glob": "^3.2.9",
+    "grunt": "^0.4.4",
+    "grunt-shell": "^0.7.0",
+    "knox": "~0.8.9"
   },
   "repository": {
     "type": "git",
