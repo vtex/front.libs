@@ -1,6 +1,6 @@
 {
   "name": "front-libs",
-  "version": "2.1.11",
+  "version": "2.1.12",
   "readmeFilename": "README.md",
   "description": "A wrapper for front end libraries deployment.",
   "dependencies": {
