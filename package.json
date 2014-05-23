@@ -5,7 +5,7 @@
   "description": "A wrapper for assets deployment.",
   "deploy": "dist/",
   "devDependencies": {
-    "deploy-s3": "~0.1.0",
+    "deploy-s3": "~0.1.1",
     "glob": "^3.2.9",
     "grunt": "^0.4.4",
     "grunt-shell": "^0.7.0",
