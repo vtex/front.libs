@@ -1,22 +1,22 @@
-DeployUtils = require './vtex-deploy-utils'
-
 module.exports = (grunt) ->
   pkg = grunt.file.readJSON('package.json')
+  
+  throw new Error("package.name is required!") unless pkg.name
+  throw new Error("package.deploy directory is required! e.g. 'deploy/'") unless pkg.deploy
 
-  utils = DeployUtils pkg,
-    dryRun: grunt.option("dry-run")
-    
   config =      
     shell:
       index:
         command: './index.sh'
+      deploy:
+        command: "s3cmd --guess-mime-type --skip-existing --no-check-md5 --no-delete-removed sync #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
       
   tasks =
   # Building block tasks
   # Deploy tasks
-    dist: ['shell'] # Dist - minifies files
+    dist: ['shell:index']
     test: []
-    vtex_deploy: utils.deployFunction
+    vtex_deploy: ['shell:deploy']
   # Development tasks
     default: ['dist']
 

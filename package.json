@@ -5,11 +5,8 @@
   "description": "A wrapper for assets deployment.",
   "deploy": "dist/",
   "devDependencies": {
-    "deploy-s3": "~0.1.1",
-    "glob": "^3.2.9",
     "grunt": "^0.4.4",
-    "grunt-shell": "^0.7.0",
-    "knox": "~0.8.9"
+    "grunt-shell": "^0.7.0"
   },
   "repository": {
     "type": "git",
