@@ -22,7 +22,7 @@ module.exports = (pkg, options) ->
       credentials = JSON.parse fs.readFileSync '/credentials.json'
     credentials.bucket = 'vtex-io'
     client = knox.createClient credentials
-    deployer = new S3Deployer(pkg, client, {dryrun: options.dryRun, fileTimeout: 1000*60, chunk: 10})
+    deployer = new S3Deployer(pkg, client, {dryrun: options.dryRun, fileTimeout: 1000*60, chunk: 50})
     deployer.deploy().then done, done, console.log
     
   return  {
