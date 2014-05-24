@@ -4,12 +4,14 @@ module.exports = (grunt) ->
   throw new Error("package.name is required!") unless pkg.name
   throw new Error("package.deploy directory is required! e.g. 'deploy/'") unless pkg.deploy
 
+  dryrun = if grunt.option('dry-run') then '--dryrun' else ''
+    
   config =      
     shell:
       index:
         command: './index.sh'
       deploy:
-        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync --size-only #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
+        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
       
   tasks =
   # Building block tasks
