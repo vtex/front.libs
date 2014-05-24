@@ -9,7 +9,7 @@ module.exports = (grunt) ->
       index:
         command: './index.sh'
       deploy:
-        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
+        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync --size-only #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
       
   tasks =
   # Building block tasks
