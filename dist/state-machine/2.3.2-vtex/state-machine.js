@@ -7,7 +7,7 @@
 
 */
 
-vtex.define(function () {
+vtex['define'](function () {
 
   var StateMachine = {
 
@@ -195,7 +195,7 @@ vtex.define(function () {
   // BROWSER
   //========
   if (window) {
-    window.StateMachine = StateMachine;
+    window['StateMachine'] = StateMachine;
   }
 
 }());
