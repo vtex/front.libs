@@ -1,12 +1,15 @@
+packer = require './grunt-packer.coffee'
+
 module.exports = (grunt) ->
   pkg = grunt.file.readJSON('package.json')
-  
+  packer(grunt)
+
   throw new Error("package.name is required!") unless pkg.name
   throw new Error("package.deploy directory is required! e.g. 'deploy/'") unless pkg.deploy
 
   dryrun = if grunt.option('dry-run') then '--dryrun' else ''
-    
-  config =      
+
+  config =
     shell:
       index:
         command: './index.sh'
@@ -25,7 +28,7 @@ module.exports = (grunt) ->
             'dist/radio/0.2/radio.min.js'
             'dist/json2/2011/json2.min.js'
           ]
-      
+
   tasks =
   # Building block tasks
   # Deploy tasks
@@ -38,4 +41,4 @@ module.exports = (grunt) ->
   # Project configuration.
   grunt.initConfig config
   grunt.loadNpmTasks name for name of pkg.devDependencies when name[0..5] is 'grunt-'
-  grunt.registerTask taskName, taskArray for taskName, taskArray of tasks    
+  grunt.registerTask taskName, taskArray for taskName, taskArray of tasks
