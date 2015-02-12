@@ -1,4 +1,3 @@
-fs = require('fs')
 semver = require('semver')
 
 module.exports = (grunt) ->
@@ -6,7 +5,7 @@ module.exports = (grunt) ->
     return grunt.file.expand(
       cwd: path
       filter: (src) ->
-        return fs.lstatSync(src).isDirectory()
+        return grunt.file.isDir(src)
     ,'*')
 
   grunt.registerTask 'pack', ->

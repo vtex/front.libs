@@ -1,8 +1,5 @@
-packer = require './grunt-packer.coffee'
-
 module.exports = (grunt) ->
   pkg = grunt.file.readJSON('package.json')
-  packer(grunt)
 
   throw new Error("package.name is required!") unless pkg.name
   throw new Error("package.deploy directory is required! e.g. 'deploy/'") unless pkg.deploy
@@ -32,7 +29,7 @@ module.exports = (grunt) ->
   tasks =
   # Building block tasks
   # Deploy tasks
-    dist: ['shell:index']
+    dist: ['shell:index', 'pack']
     test: []
     vtex_deploy: ['shell:deploy', 'shell:deploy_br']
   # Development tasks
@@ -41,4 +38,5 @@ module.exports = (grunt) ->
   # Project configuration.
   grunt.initConfig config
   grunt.loadNpmTasks name for name of pkg.devDependencies when name[0..5] is 'grunt-'
+  grunt.loadTasks('tasks')
   grunt.registerTask taskName, taskArray for taskName, taskArray of tasks
