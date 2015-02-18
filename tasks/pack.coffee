@@ -14,7 +14,8 @@ module.exports = (grunt) ->
     for lib in lsDirs('dist')
       for version in lsDirs('dist/' + lib)
         packagePath = 'dist/' + lib + '/' + version + '/package.json'
-        if (semver.valid(version) && !grunt.file.exists(packagePath))
+        packageIgnorePath = 'dist/' + lib  + '/.packageignore'
+        if (semver.valid(version) && !grunt.file.exists(packagePath) && !grunt.file.exists(packageIgnorePath))
           content =
             'name': lib
             'version': version
