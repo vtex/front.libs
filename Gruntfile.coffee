@@ -11,9 +11,9 @@ module.exports = (grunt) ->
       index:
         command: './index.sh'
       deploy:
-        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io-us/#{pkg.name}/"
+        command: "aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io-us/#{pkg.name}/"
       deploy_br:
-        command: "AWS_CONFIG_FILE=/.aws-config-front aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
+        command: "aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
 
     concat:
       checkout:
