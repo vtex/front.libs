@@ -31,7 +31,7 @@
 
     /*
     	Formats monetary value as a string with decimal and thousands separators
-    
+
      @param [Number] value the value to format
      @param [Object] options
      @option options [String] decimalSeparator the character used to separate the decimal and integer parts. Default: ','
@@ -39,11 +39,11 @@
      @option options [Boolean] absolute whether to use an absolute value or not. Default: false
      @option options [Integer] decimalPlaces the number of decimal places to use. Default: 2
      @return [String] the value formatted according to the options given
-    
+
      @example Default usage
      	formatCurrency(1050)
      	#=> '1.050,00'
-    
+
      @example Usage with options
      	formatCurrency(-1050.99, {'decimalSeparator': '.', 'thousandsSeparator': ',', 'absolute': true, 'decimalPlaces': 3}
      	#=> '1,050.990'
@@ -74,18 +74,18 @@
 
     /*
      Pads a string until it reaches a certain length. Non-strings will be converted.
-    
+
      @param [String] str the string to be padded. Any other type will be converted to string
      @param [Integer] max the length desired
     	@param [Object] options
      @option options [String] char the character used to pad the string. Default: '0'
      @option options [String] position where to pad. Valid: 'left', 'right'. Default: 'left'
      @return [String] the string padded according to the options given
-    
+
      @example Default usage
      	pad('19,99', 6)
      	#=> '019,99'
-    
+
      @example Usage with options
      	pad('Hello', 7, {'char': ' ', 'position': 'right'})
      	#=> 'Hello  '
@@ -111,10 +111,10 @@
 
     /*
     	Returns the content of the cooke with the given name
-    
+
      @param [String] name the name of the cookie to be read
      @return [String] the content of the cookie with the given name
-    
+
      @example Default usage
      	# Assuming document.cookie is 'a=123; b=xyz'
      	readCookie(a)
@@ -140,11 +140,11 @@
     /*
      Receives a cookie that has "subcookies" in the format a=b&c=d
     	Returns the content of the "subcookie" with the given name
-    
+
      @param [String] cookie a string with "subcookies" in the format 'a=b&c=d'
      @param [String] name the name of the "subcookie" to get the value of
      @return [String] the content of the "subcookie" with the given name
-    
+
      @example Get subcookies
      	c = readCookie('sub')
      	#=> 'a=b&c=d'
@@ -171,9 +171,9 @@
     /*
      Parses the querystring and returns its object representation.
      It decodes URI components (such as %3D to =) and replaces + with space.
-    
+
      @return [Object] an object representation of the querystring parameters
-    
+
      @example
      	# URL is http://google.com/?a=b&c=hello+%3D+hi
      	urlParam()
@@ -187,7 +187,11 @@
       search = /([^&=]+)=?([^&]*)/g;
       plus = /\+/g;
       decode = function(s) {
-        return decodeURIComponent(s.replace(plus, " "));
+        try {
+          return decodeURIComponent(s.replace(plus, " "));
+        } catch (e) {
+          return s.replace(plus, " ");
+        }
       };
       query = window.location.search.substring(1);
       while (match = search.exec(query)) {
@@ -198,10 +202,10 @@
 
     /*
      Transforms a ISO8061 compliant date string into a Date object
-    
+
      @param [String] isostr a string in the format YYYY-MM-DDThh:mm:ss
      @return [Date] a Date object created from the date information in the string
-    
+
      @example Default usage
      	dateFromISO8601('1997-07-16T19:20:30')
      	#=> Date object ("Thu Jul 18 2013 15:08:08 GMT-0300 (BRT)")
@@ -217,14 +221,14 @@
 
     /*
      Capitalizes the first character of a given string.
-    
+
      @param [String] word the word to be capitalized
      @return [String] the capitalized word
-    
+
      @example Default usage
      	capitalizeWord('hello')
      	#=> 'Hello'
-    
+
      @example It only capitalizes the first character
      	capitalizeWord(' hi ')
      	#=> ' hi '
@@ -252,10 +256,10 @@
 
     /*
      Capitalizes each word in a given sentende.
-    
+
      @param [String] sentence the sentence to be capitalized
      @return [String] the capitalized sentence
-    
+
      @example Default usage
      	capitalizeSentence('* hello world!')
      	#=> '* Hello Wordl!'
@@ -299,10 +303,10 @@
 
     /*
      Substitutes each * in a string with span.masked-info *
-    
+
      @param [String] info the string to mask
      @return [String] the masked string
-    
+
      @example Default usage
      	maskInfo('abc**')
      	#=> 'abc<span class="masked-info">*</span><span class="masked-info">*</span>'
@@ -342,10 +346,10 @@
 
     /*
     	Replaces all space charactes with hyphen characters
-    
+
      @param [String] str the string
      @return [Stirng] the string with all space characters replaced with hyphen characters
-    
+
      @example
      	spacesToHyphens("Branco e Preto")
      	#=> "Branco-e-Preto"
@@ -358,10 +362,10 @@
 
     /*
      Creates a (mostly) unique hashcode from a string
-    
+
      @param [String] str the string
      @return [Number] the created hashcode
-    
+
      @example Typical usage is to give an object a unique ID
      	uid = hash(Date.now())
      	#=> -707575924
@@ -382,11 +386,11 @@
 
     /*
     	Produces a new object mapping each key:value pair to a key:f(value) pair.
-    
+
      @param [Object] obj the object
      @param [Function] f a function that will receive (key, value) and should return a replacement value
      @return [Object] a new object with each value mapped according to the function
-    
+
      @example
      	obj = {a: 1, b: 2};
      	mapObj(obj, function(key, value){
