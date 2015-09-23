@@ -1,6 +1,6 @@
 {
   "name": "front-libs",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "readmeFilename": "README.md",
   "description": "A wrapper for assets deployment.",
   "deploy": "dist/",
