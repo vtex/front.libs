@@ -4,3 +4,4 @@ npm-debug.log
 tmp-deploy/
 bower_components/
 dist/index.html
+.DS_Store
