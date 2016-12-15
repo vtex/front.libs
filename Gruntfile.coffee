@@ -12,8 +12,6 @@ module.exports = (grunt) ->
         command: './index.sh'
       deploy:
         command: "aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io-us/#{pkg.name}/"
-      deploy_br:
-        command: "aws s3 sync --size-only #{dryrun} #{pkg.deploy} s3://vtex-io/#{pkg.name}/"
 
     concat:
       checkout:
@@ -31,7 +29,7 @@ module.exports = (grunt) ->
   # Deploy tasks
     dist: ['shell:index', 'pack']
     test: []
-    vtex_deploy: ['shell:deploy', 'shell:deploy_br']
+    vtex_deploy: ['shell:deploy']
   # Development tasks
     default: ['dist']
 
