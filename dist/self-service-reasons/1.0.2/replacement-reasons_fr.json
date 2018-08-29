@@ -10,7 +10,7 @@
         "disclaimers": [
           "Une nouvelle commande sera créée avec les mêmes produits",
           "La commande actuelle sera annulée automatiquement",
-          "La facture sera restituée par la banque"
+          "La facture sera remboursée par la banque"
         ]
       },
       "options": [
@@ -36,7 +36,7 @@
         "disclaimers": [
           "Une nouvelle commande sera créée avec les mêmes produits et conditions",
           "La commande actuelle sera annulée automatiquement",
-          "La facture sera restituée par la banque"
+          "La facture sera remboursée par la banque"
         ]
       },
       "options": [
@@ -58,7 +58,7 @@
         "disclaimers": [
           "Une nouvelle commande sera créée avec les mêmes produits",
           "La commande actuelle sera annulée automatiquement",
-          "La facture sera restituée par la banque"
+          "La facture sera remboursée par la banque"
         ]
       },
       "options": [
@@ -80,7 +80,7 @@
         "disclaimers": [
           "Une nouvelle commande sera créée avec les mêmes produits",
           "La commande actuelle sera annulée automatiquement",
-          "La facture sera restituée par la banque"
+          "La facture sera remboursée par la banque"
         ]
       },
       "options": [
