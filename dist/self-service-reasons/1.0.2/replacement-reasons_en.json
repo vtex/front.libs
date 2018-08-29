@@ -9,7 +9,7 @@
         "title": "When you update delivery info:",
         "disclaimers": [
           "A new order will be placed in the store with the same products",
-          "The current order will be cancelled automatically",
+          "The current order will be canceled automatically",
           "The current charge will be refunded"
         ]
       },
@@ -35,7 +35,7 @@
         "title": "When updating personal information:",
         "disclaimers": [
           "A new order will be placed in the store with the same products and price conditions",
-          "The current order will be cancelled automatically",
+          "The current order will be canceled automatically",
           "The current charge will be refunded"
         ]
       },
@@ -57,7 +57,7 @@
           "title": "When updating payment information:",
         "disclaimers": [
           "A new order will be placed in the store with the same products",
-          "The current order will be cancelled automatically",
+          "The current order will be canceled automatically",
           "The current charge will be refunded"
         ]
       },
@@ -79,7 +79,7 @@
         "title": "When you change the product variation:",
         "disclaimers": [
           "A new order will be placed in the store with the same products",
-          "The current order will be cancelled automatically",
+          "The current order will be canceled automatically",
           "The current charge will be refunded"
         ]
       },
