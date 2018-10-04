@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "en",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Cancellation",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "The current order will be canceled",
+          "The cancellation cannot be undone"
+        ]
+      },
+      "options": [
+        {
+          "label": "I don't want this product anymore.",
+          "value": ""
+        },
+        {
+          "label": "I bought by mistake.",
+          "value": ""
+        },
+        {
+          "label": "The shipping will take too long.",
+          "value": ""
+        },
+        {
+          "label": "I found it for a better price elsewhere.",
+          "value": ""
+        },
+        {
+          "label": "I'd rather not inform.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
