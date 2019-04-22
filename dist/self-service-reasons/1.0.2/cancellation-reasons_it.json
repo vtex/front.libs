@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "it",
+  "groups": [
+    {
+      "id": "cancellazione",
+      "name": "cancellazione",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "L'ordine in corso sarà annullato",
+          "La cancellazione non può essere annullata"
+        ]
+      },
+      "options": [
+        {
+          "label": "Non voglio più questo prodotto.",
+          "value": ""
+        },
+        {
+          "label": "Ho comprato per errore.",
+          "value": ""
+        },
+        {
+          "label": "La spedizione richiederà troppo tempo.",
+          "value": ""
+        },
+        {
+          "label": "L'ho trovato per un prezzo migliore altrove.",
+          "value": ""
+        },
+        {
+          "label": "Preferirei non informare.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
