@@ -1,0 +1,7 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - npm install --unsafe-perm
+      - sudo grunt dist --stack
+      - grunt vtex_deploy --stack
