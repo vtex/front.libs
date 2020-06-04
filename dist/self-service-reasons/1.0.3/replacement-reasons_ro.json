@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "ro",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Livrare",
+      "description": {
+        "title": "Dacă modifici informatiile de livrare:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse",
+          "Această comandă va fi anulată automat",
+          "Costurile aferente vor fi restituite"
+        ]
+      },
+      "options": [
+        {
+          "label": "Vreau să modific adresa de livrare",
+          "value": ""
+        },
+        {
+          "label": "Vreau să modific modalitatea de livrare",
+          "value": ""
+        },
+        {
+          "label": "Vreau să reprogramez livrarea",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Date personale",
+      "description": {
+        "title": "Dacă modifici datele personale:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse și aceeasi politică de prețuri",
+          "Această comandă va fi anulată automat",
+          "Costurile aferente vor fi restituite"
+        ]
+      },
+      "options": [
+        {
+          "label": "Numărul de contact este greșit, doresc să-l modific",
+          "value": ""
+        },
+        {
+          "label": "Datele personale sunt incorecte",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Plata",
+      "description": {
+        "title": "Dacă modifici informatiile de plată:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse",
+          "Această comandă va fi anulată automat",
+          "Costurile aferente vor fi restituite"
+        ]
+      },
+      "options": [
+        {
+          "label": "Vreau să modific numărul de rate selectat",
+          "value": ""
+        },
+        {
+          "label": "Vreau să modific metoda de plată",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Modifică detaliile produsului",
+      "description": {
+        "title": "Dacă modifici detaliile produsului:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse",
+          "Această comandă va fi anulată automat",
+          "Costurile aferente vor fi restituite"
+        ]
+      },
+      "options": [
+        {
+          "label": "Am comandat mărimea greșită și doresc să o schimb",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
