@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "it",
+  "groups": [
+    {
+      "id": "spedizione",
+      "name": "spedizione",
+      "description": {
+        "title": "Quando aggiorni le informazioni di consegna:",
+        "disclaimers": [
+          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
+          "L'ordine corrente verrà annullato automaticamente",
+          "Il costo attuale sarà rimborsato"
+        ]
+      },
+      "options": [
+        {
+          "label": "Devo aggiornare il mio indirizzo di consegna",
+          "value": ""
+        },
+        {
+          "label": "Voglio una diversa opzione di spedizione",
+          "value": ""
+        },
+        {
+          "label": "Voglio riprogrammare la data di consegna",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "Profilo",
+      "name": "Informazione personale",
+      "description": {
+        "title": "Quando si aggiornano le informazioni personali:",
+        "disclaimers": [
+          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti e le stesse condizioni di prezzo",
+          "L'ordine corrente verrà annullato automaticamente",
+          "Il costo attuale sarà rimborsato"
+        ]
+      },
+      "options": [
+        {
+          "label": "Il numero di telefono di contatto è sbagliato, mi piacerebbe cambiarlo",
+          "value": ""
+        },
+        {
+          "label": "Le mie informazioni personali non sono corrette",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "Pagamento",
+      "name": "Pagamento",
+      "description": {
+          "title": "Durante l'aggiornamento delle informazioni di pagamento:",
+        "disclaimers": [
+          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
+          "L'ordine corrente verrà annullato automaticamente",
+          "Il costo attuale sarà rimborsato"
+        ]
+      },
+      "options": [
+        {
+          "label": "Voglio cambiare il numero di rate selezionate per la mia carta di credito",
+          "value": ""
+        },
+        {
+          "label": "Voglio cambiare il tipo di pagamento selezionato",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Modifica la variazione del prodotto",
+      "description": {
+        "title": "Quando cambi la variazione del prodotto:",
+        "disclaimers": [
+          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
+          "L'ordine corrente verrà annullato automaticamente",
+          "Il costo attuale sarà rimborsato"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ho comprato il numero/la taglia sbagliata e voglio cambiarla",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

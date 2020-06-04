@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "ko",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "취소",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "현재 주문은 취소 되었습니다.",
+          "주문 취소를  되돌릴 수 없습니다."
+        ]
+      },
+      "options": [
+        {
+          "label": "나는 이 물건이 더 이상 필요하지 않습니다.",
+          "value": ""
+        },
+        {
+          "label": "실수로 구매하였습니다.",
+          "value": ""
+        },
+        {
+          "label": "배송이 너무 오래 걸립니다.",
+          "value": ""
+        },
+        {
+          "label": "다른 곳에서 더 싼 가격을 찾았습니다.",
+          "value": ""
+        },
+        {
+          "label": "알려 드릴 수 없습니다.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
