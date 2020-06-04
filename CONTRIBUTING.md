@@ -12,7 +12,7 @@ To add a new language file you'll only need to find the lastest version and add 
 
 #### Fix Translations
 
-To fix any messages you'll need to copy the whole version folder along with its messages and rename it as the next version (folowing [Semantic Versioning](https://semver.org/)). Then, make the desired changes in the new version folder.
+To fix any messages you'll need to copy the whole version folder along with its messages and rename it as the next version (following [Semantic Versioning](https://semver.org/)). Then, make the desired changes in the new version folder.
 
 ### Release
 
