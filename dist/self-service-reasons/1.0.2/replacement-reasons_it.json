@@ -4,44 +4,44 @@
   "groups": [
     {
       "id": "spedizione",
-      "name": "spedizione",
+      "name": "Spedizione",
       "description": {
-        "title": "Quando aggiorni le informazioni di consegna:",
+        "title": "Aggiornando le informazioni di spedizione:",
         "disclaimers": [
-          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
-          "L'ordine corrente verrà annullato automaticamente",
-          "Il costo attuale sarà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
+          "L'ordine attuale verrà automaticamente annullato",
+          "L'attuale addebito verrà rimborsato"
         ]
       },
       "options": [
         {
-          "label": "Devo aggiornare il mio indirizzo di consegna",
+          "label": "Necessito aggiornare il mio indirizzo di consegna",
           "value": ""
         },
         {
-          "label": "Voglio una diversa opzione di spedizione",
+          "label": "Desidero una differente opzione di consegna",
           "value": ""
         },
         {
-          "label": "Voglio riprogrammare la data di consegna",
+          "label": "Desidero riprogrammare la data di consegna",
           "value": ""
         }
       ]
     },
     {
-      "id": "Profilo",
-      "name": "Informazione personale",
+      "id": "profilo",
+      "name": "Informazioni personali",
       "description": {
-        "title": "Quando si aggiornano le informazioni personali:",
+        "title": "Aggiornando le informazioni personali:",
         "disclaimers": [
-          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti e le stesse condizioni di prezzo",
-          "L'ordine corrente verrà annullato automaticamente",
-          "Il costo attuale sarà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti e prezzi verrà eseguito nel negozio",
+          "L'ordine attuale verrà automaticamente annullato",
+          "L'attuale addebito verrà rimborsato"
         ]
       },
       "options": [
         {
-          "label": "Il numero di telefono di contatto è sbagliato, mi piacerebbe cambiarlo",
+          "label": "Il numero di telefono è sbagliato, vorrei modificarlo",
           "value": ""
         },
         {
@@ -51,41 +51,41 @@
       ]
     },
     {
-      "id": "Pagamento",
+      "id": "pagamento",
       "name": "Pagamento",
       "description": {
-          "title": "Durante l'aggiornamento delle informazioni di pagamento:",
+        "title": "Aggiornando le informazioni di pagamento:",
         "disclaimers": [
-          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
-          "L'ordine corrente verrà annullato automaticamente",
-          "Il costo attuale sarà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
+          "L'ordine attuale verrà automaticamente annullato",
+          "L'attuale addebito verrà rimborsato"
         ]
       },
       "options": [
         {
-          "label": "Voglio cambiare il numero di rate selezionate per la mia carta di credito",
+          "label": "Desidero modificare il numero di rate selezionate per il pagamento con la mia carta di credito",
           "value": ""
         },
         {
-          "label": "Voglio cambiare il tipo di pagamento selezionato",
+          "label": "Desidero modificare il tipo di pagamento selezionato",
           "value": ""
         }
       ]
     },
     {
       "id": "sku",
-      "name": "Modifica la variazione del prodotto",
+      "name": "Modifica la variante del prodotto",
       "description": {
-        "title": "Quando cambi la variazione del prodotto:",
+        "title": "Modificando la variante del prodotto:",
         "disclaimers": [
-          "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
-          "L'ordine corrente verrà annullato automaticamente",
-          "Il costo attuale sarà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
+          "L'ordine attuale verrà automaticamente annullato",
+          "L'attuale addebito verrà rimborsato"
         ]
       },
       "options": [
         {
-          "label": "Ho comprato il numero/la taglia sbagliata e voglio cambiarla",
+          "label": "Ho acquistato il numero/la taglia sbagliato(a) e desidero cambiarlo(a)",
           "value": ""
         }
       ]
