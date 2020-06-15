@@ -54,7 +54,7 @@
       "id": "Pagamento",
       "name": "Pagamento",
       "description": {
-          "title": "Durante l'aggiornamento delle informazioni di pagamento:",
+        "title": "Durante l'aggiornamento delle informazioni di pagamento:",
         "disclaimers": [
           "Un nuovo ordine verrà inserito nel negozio con gli stessi prodotti",
           "L'ordine corrente verrà annullato automaticamente",
