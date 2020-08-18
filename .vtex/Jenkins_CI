@@ -21,7 +21,6 @@ pipeline {
             steps {
                 container('builder') {
                     reportStatus('pending', 'Running build and tests')
-                    sh 'jq ".version = \\\"$SOURCE_VERSION\\\"" package.json > package-new.json && mv package-new.json package.json'
                     sh 'npm install'
                     sh 'grunt dist'
                     sh 'grunt test'
