@@ -1,0 +1,101 @@
+slackResponse=null
+pipeline {
+    agent { label "node-agent" }
+    parameters {
+        string name: 'ORGANIZATION'
+        string name: 'REPOSITORY_NAME'
+        string name: 'SOURCE_VERSION'
+        string name: 'PROJECT'
+        string name: 'SOURCE_ID'
+        string name: 'AWS_ACCOUNT_ID'
+        string name: 'AWS_REGION'
+        string name: 'SLACK_CHANNEL'
+    }
+    stages {
+        stage('Update git statuses') {
+            steps{
+                reportStatus('pending', 'Build started')
+            }
+        }
+        stage('Setup credentials') {
+            steps {
+                container('builder') {
+                    reportStatus('pending', 'Setup credentials')
+                    sh 'aws-assume-role $AWS_ACCOUNT_ID $PROJECT:$JOB_BASE_NAME $AWS_REGION'
+                }
+            }
+        }
+        stage('Build and Test') {
+            steps {
+                container('builder') {
+                    reportStatus('pending', 'Running build and tests')
+                    sh 'jq ".version = \\\"$SOURCE_VERSION\\\"" package.json > package-new.json && mv package-new.json package.json'
+                    sh 'npm install'
+                    sh 'grunt dist'
+                    sh 'grunt test'
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                container('builder') {
+                    reportStatus('pending', 'Deploying files to bucket')
+                    sh 'grunt vtex_deploy'
+                }
+            }
+        }
+    }
+    post {
+      success {
+        reportStatus('success', 'Deployment succeded')
+      }
+      unsuccessful {
+        reportStatus('failure', 'Deployment failed')
+      }
+    }
+    options {
+        skipStagesAfterUnstable()
+    }
+}
+import groovy.json.JsonOutput
+def reportStatus(status, message) {
+    def color = "#439FE0"
+    def icon = "loading"
+    switch (status) {
+        case 'success':
+            color = "good"
+            icon = "github-check-done"
+            break;
+        case 'failure':
+            color = "danger"
+            icon = "error"
+            break;
+        default:
+            break;
+    }
+    slackNotify(status, message, color, icon)
+    updateGitStatus(status, message)
+}
+
+def updateGitStatus(status, message) {
+    def payload = JsonOutput.toJson([
+        state: status,
+        context:"Jenkins:$JOB_BASE_NAME",
+        description: "${message} $SOURCE_VERSION#$BUILD_NUMBER",
+        target_url: "$RUN_DISPLAY_URL"
+    ])
+    withCredentials([string(credentialsId: 'pachamama-access-token', variable: 'MY_SECRET_GIT_TOKEN')]) {
+        sh "curl 'https://api.github.com/repos/$ORGANIZATION/$REPOSITORY_NAME/statuses/$SOURCE_ID' -H 'Content-Type: application/json' -H 'Authorization: token $MY_SECRET_GIT_TOKEN' -X POST -d '${payload}' -s -o /dev/null"
+    }
+}
+
+def slackNotify(status, message, color, icon) {
+    def fullMessage = "*$PROJECT* - *$JOB_BASE_NAME* - branch: *$SOURCE_VERSION*\n:${icon}: *#$BUILD_NUMBER ${status.toUpperCase()}*\n${message}\n<$RUN_DISPLAY_URL|View Details>"
+    if(!slackResponse) {
+        slackResponse = slackSend(channel: params.SLACK_CHANNEL, color: color, message: fullMessage, tokenCredentialId: 'slack-token')
+    }
+    else {
+        slackSend(channel: slackResponse.channelId, timestamp: slackResponse.ts, color: color, message: fullMessage, tokenCredentialId: 'slack-token')
+        slackSend(channel: slackResponse.threadId, color: color, message: message, tokenCredentialId: 'slack-token')
+    }
+}
