@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "sk",
+  "groups": [
+    {
+      "id": "zrušenie",
+      "name": "Zrušenie",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Aktuálna objednávka bude zrušená",
+          "Zrušenie nie je možné vrátiť späť"
+        ]
+      },
+      "options": [
+        {
+          "label": "Tento výrobok už nechcem.",
+          "value": ""
+        },
+        {
+          "label": "Kúpil som to omylom.",
+          "value": ""
+        },
+        {
+          "label": "Dodanie bude trvať príliš dlho.",
+          "value": ""
+        },
+        {
+          "label": "Našiel som to za lepšiu cenu inde.",
+          "value": ""
+        },
+        {
+          "label": "Radšej sa nevyjadrím.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

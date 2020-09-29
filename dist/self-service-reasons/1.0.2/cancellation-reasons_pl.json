@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "pl",
+  "groups": [
+    {
+      "id": "anulowanie",
+      "name": "Anulowanie",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Obecne zamówienie zostanie anulowane",
+          "Anulacji nie można cofnąć"
+        ]
+      },
+      "options": [
+        {
+          "label": "Nie chcę już tego produktu.",
+          "value": ""
+        },
+        {
+          "label": "Kupiłem przez pomyłkę.",
+          "value": ""
+        },
+        {
+          "label": "Wysyłka będzie trwała zbyt długo.",
+          "value": ""
+        },
+        {
+          "label": "Znalazłem to za lepszą cenę gdzie indziej.",
+          "value": ""
+        },
+        {
+          "label": "Wolałbym nie podawać.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -3,34 +3,34 @@
   "locale": "de",
   "groups": [
     {
-      "id": "Annullierung",
-      "name": "Annullierung",
+      "id": "stornierung",
+      "name": "Stornierung",
       "description": {
         "title": "",
         "disclaimers": [
-          "Der aktuelle Auftrag wird annuliert",
-          "Die Annullierung kann nicht rückgängig gemacht werden"
+          "Die aktuelle Bestellung wird storniert",
+          "Die Stornierung kann nicht rückgängig gemacht werden"
         ]
       },
       "options": [
         {
-          "label": "Ich möchte dieses Produkt nicht mehr.",
+          "label": "Ich will dieses Produkt nicht mehr.",
           "value": ""
         },
         {
-          "label": "Ich habe versehentlich gekauft.",
+          "label": "Ich habe irrtümlich bestellt.",
           "value": ""
         },
         {
-          "label": "Der Versand dauert zu lange.",
+          "label": "Der Versand wird zu lange dauern.",
           "value": ""
         },
         {
-          "label": "Ich fand es für einen besseren Preis anderswo.",
+          "label": "Ich habe es anderswo zu einem günstigeren Preis gefunden.",
           "value": ""
         },
         {
-          "label": "Ich möchte lieber nicht sagen.",
+          "label": "Ich möchte darüber nicht informieren.",
           "value": ""
         }
       ]

@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "en",
+  "groups": [
+    {
+      "id": "forsendelse",
+      "name": "Forsendelse",
+      "description": {
+        "title": "Når du opdaterer leveringsinfo:",
+        "disclaimers": [
+          "En ny ordre placeres i butikken med de samme produkter",
+          "Den aktuelle ordre annulleres automatisk",
+          "Den aktuelle opkrævning refunderes"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg skal opdatere min leveringsadresse",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil have en anden forsendelsesmulighed",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil ændre leveringsdatoen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Personlige oplysninger",
+      "description": {
+        "title": "Ved opdatering af personlige oplysninger:",
+        "disclaimers": [
+          "En ny ordre placeres i butikken med de samme produkter og prisbetingelser",
+          "Den aktuelle ordre annulleres automatisk",
+          "Den aktuelle opkrævning refunderes"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kontakttelefonnummeret er forkert, jeg vil gerne ændre det",
+          "value": ""
+        },
+        {
+          "label": "Mine personlige oplysninger er forkerte",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "betaling",
+      "name": "Betaling",
+      "description": {
+        "title": "Ved opdatering af betalingsoplysninger:",
+        "disclaimers": [
+          "En ny ordre placeres i butikken med de samme produkter",
+          "Den aktuelle ordre annulleres automatisk",
+          "Den aktuelle opkrævning refunderes"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg vil ændre antallet af afbetalinger, der er valgt til mit kreditkort",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil ændre den valgte betalingstype",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Skift produktvariation",
+      "description": {
+        "title": "Når du ændrer produktvariationen:",
+        "disclaimers": [
+          "En ny ordre placeres i butikken med de samme produkter",
+          "Den aktuelle ordre annulleres automatisk",
+          "Den aktuelle opkrævning refunderes"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg købte det forkerte antal / størrelse og vil ændre det",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

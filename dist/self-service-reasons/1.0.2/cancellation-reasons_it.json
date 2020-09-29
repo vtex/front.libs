@@ -1,5 +1,5 @@
 {
-  "name": "cancellaModulo",
+  "name": "Modulo di annullamento",
   "locale": "it",
   "groups": [
     {
@@ -8,7 +8,7 @@
       "description": {
         "title": "",
         "disclaimers": [
-          "L'ordine attuale verrà annullato",
+          "L'ordine in corso verrà cancellato",
           "La cancellazione non può essere annullata"
         ]
       },
@@ -22,7 +22,7 @@
           "value": ""
         },
         {
-          "label": "La spedizione necessita troppo tempo.",
+          "label": "La spedizione richiede troppo tempo.",
           "value": ""
         },
         {

@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "fi",
+  "groups": [
+    {
+      "id": "toimitus",
+      "name": "Toimitus",
+      "description": {
+        "title": "Kun päivität toimitustietoja:",
+        "disclaimers": [
+          "Uusi tilaus tehdään kauppaan samoilla tuotteilla",
+          "Nykyinen tilaus peruutetaan automaattisesti",
+          "Nykyinen veloitus palautetaan"
+        ]
+      },
+      "options": [
+        {
+          "label": "Haluan päivittää toimitusosoitettani",
+          "value": ""
+        },
+        {
+          "label": "Haluan toisen toimitustavan",
+          "value": ""
+        },
+        {
+          "label": "Haluan sopia uuden toimituspäivän",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profiili",
+      "name": "Henkilötiedot",
+      "description": {
+        "title": "Kun päivität henkilötietoja:",
+        "disclaimers": [
+          "Uusi tilaus tehdään kauppaan samoilla tuotteilla ja hintaehdoilla",
+          "Nykyinen tilaus peruutetaan automaattisesti",
+          "Nykyinen veloitus palautetaan"
+        ]
+      },
+      "options": [
+        {
+          "label": "Yhteystietojen puhelinnumero on väärin, haluan muuttaa sen",
+          "value": ""
+        },
+        {
+          "label": "Henkilötietoni ovat väärät",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "maksu",
+      "name": "Maksu",
+      "description": {
+        "title": "Kun päivität maksutietoja:",
+        "disclaimers": [
+          "Uusi tilaus tehdään kauppaan samoilla tuotteilla",
+          "Nykyinen tilaus peruutetaan automaattisesti",
+          "Nykyinen veloitus palautetaan"
+        ]
+      },
+      "options": [
+        {
+          "label": "Haluan vaihtaa luottokorttini maksuerien määrää",
+          "value": ""
+        },
+        {
+          "label": "Haluan vaihtaa valittua maksutyyppiä",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "myyntiyksikkö",
+      "name": "Vaihda tuotevariaatiota",
+      "description": {
+        "title": "Kun vaihdat tuotevariaatiota:",
+        "disclaimers": [
+          "Uusi tilaus tehdään kauppaan samoilla tuotteilla",
+          "Nykyinen tilaus peruutetaan automaattisesti",
+          "Nykyinen veloitus palautetaan"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ostin väärän koon tuotteen ja haluan vaihtaa sen",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

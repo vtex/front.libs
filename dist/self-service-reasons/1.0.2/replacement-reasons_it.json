@@ -1,25 +1,25 @@
 {
-  "name": "sacForm",
+  "name": "Modulo Assistenza al Cliente",
   "locale": "it",
   "groups": [
     {
       "id": "spedizione",
       "name": "Spedizione",
       "description": {
-        "title": "Aggiornando le informazioni di spedizione:",
+        "title": "Quando aggiorni le informazioni sulla consegna:",
         "disclaimers": [
-          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
-          "L'ordine attuale verrà automaticamente annullato",
-          "L'attuale addebito verrà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà effettuato nel negozio",
+          "L'ordine in corso verrà automaticamente annullato",
+          "L'addebito effettuato verrà rimborsato"
         ]
       },
       "options": [
         {
-          "label": "Necessito aggiornare il mio indirizzo di consegna",
+          "label": "Devo aggiornare il mio indirizzo di consegna",
           "value": ""
         },
         {
-          "label": "Desidero una differente opzione di consegna",
+          "label": "Desidero un'opzione di consegna differente",
           "value": ""
         },
         {
@@ -32,11 +32,11 @@
       "id": "profilo",
       "name": "Informazioni personali",
       "description": {
-        "title": "Aggiornando le informazioni personali:",
+        "title": "Quando aggiorni le informazioni personali:",
         "disclaimers": [
-          "Un nuovo ordine contenente gli stessi prodotti e prezzi verrà eseguito nel negozio",
-          "L'ordine attuale verrà automaticamente annullato",
-          "L'attuale addebito verrà rimborsato"
+          "Un nuovo ordine con gli stessi prodotti e gli stessi prezzi verrà effettuato nel negozio",
+          "L'ordine in corso verrà automaticamente annullato",
+          "L'addebito effettuato verrà rimborsato"
         ]
       },
       "options": [
@@ -54,11 +54,11 @@
       "id": "pagamento",
       "name": "Pagamento",
       "description": {
-        "title": "Aggiornando le informazioni di pagamento:",
+        "title": "Quando aggiorni le informazioni di pagamento:",
         "disclaimers": [
-          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
-          "L'ordine attuale verrà automaticamente annullato",
-          "L'attuale addebito verrà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà effettuato nel negozio",
+          "L'ordine in corso verrà automaticamente annullato",
+          "L'addebito effettuato verrà rimborsato"
         ]
       },
       "options": [
@@ -74,13 +74,13 @@
     },
     {
       "id": "sku",
-      "name": "Modifica la variante del prodotto",
+      "name": "Cambia la variante del prodotto",
       "description": {
-        "title": "Modificando la variante del prodotto:",
+        "title": "Quando cambi la variante del prodotto:",
         "disclaimers": [
-          "Un nuovo ordine contenente gli stessi prodotti verrà eseguito nel negozio",
-          "L'ordine attuale verrà automaticamente annullato",
-          "L'attuale addebito verrà rimborsato"
+          "Un nuovo ordine contenente gli stessi prodotti verrà effettuato nel negozio",
+          "L'ordine in corso verrà automaticamente annullato",
+          "L'addebito effettuato verrà rimborsato"
         ]
       },
       "options": [

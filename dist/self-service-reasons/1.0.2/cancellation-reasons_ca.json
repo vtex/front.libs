@@ -1,0 +1,39 @@
+{
+  "name": "Formulari de cancel·lació",
+  "locale": "cat",
+  "groups": [
+    {
+      "id": "cancel·lació",
+      "name": "Cancel·lació",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Es cancel·larà la comanda actual",
+          "No es pot desfer la cancel·lació"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ja no vull aquest producte.",
+          "value": ""
+        },
+        {
+          "label": "L'he comprat per error.",
+          "value": ""
+        },
+        {
+          "label": "L'enviament tarda massa temps.",
+          "value": ""
+        },
+        {
+          "label": "L'he trobat a millor preu en un altre lloc.",
+          "value": ""
+        },
+        {
+          "label": "Prefereixo no informar.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

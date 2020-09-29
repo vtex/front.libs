@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "en",
+  "groups": [
+    {
+      "id": "annullering",
+      "name": "Annullering",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Den aktuelle ordre annulleres",
+          "Annulleringen kan ikke fortrydes"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg vil ikke have dette produkt mere.",
+          "value": ""
+        },
+        {
+          "label": "Jeg købte ved en fejltagelse.",
+          "value": ""
+        },
+        {
+          "label": "Forsendelsen vil tage for lang tid.",
+          "value": ""
+        },
+        {
+          "label": "Jeg fandt det til en bedre pris andre steder.",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil helst ikke informere om det.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

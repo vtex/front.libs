@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "fi",
+  "groups": [
+    {
+      "id": "peruutus",
+      "name": "Peruutus",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Nykyinen tilaus peruutetaan",
+          "Peruutusta ei voi kumota"
+        ]
+      },
+      "options": [
+        {
+          "label": "En enää halua tätä tuotetta.",
+          "value": ""
+        },
+        {
+          "label": "Ostin sen vahingossa.",
+          "value": ""
+        },
+        {
+          "label": "Toimituksessa kestää liian kauan.",
+          "value": ""
+        },
+        {
+          "label": "Löysin sen parempaan hintaan muualta.",
+          "value": ""
+        },
+        {
+          "label": "En halua kertoa.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

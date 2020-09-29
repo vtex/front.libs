@@ -54,7 +54,7 @@
       "id": "payment",
       "name": "Pagamiento",
       "description": {
-          "title": "Cuando actualiza medios de pago:",
+        "title": "Cuando actualiza medios de pago:",
         "disclaimers": [
           "Un nuevo pedido será creado en la tienda con los mismos productos",
           "El pedido atual se cancelará automáticamente",

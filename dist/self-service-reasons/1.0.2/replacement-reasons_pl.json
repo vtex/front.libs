@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "pl",
+  "groups": [
+    {
+      "id": "wysyłka",
+      "name": "Wysyłka",
+      "description": {
+        "title": "Po zaktualizowaniu informacji o dostawie:",
+        "disclaimers": [
+          "Nowe zamówienie zostanie złożone w sklepie na te same produkty",
+          "Obecne zamówienie zostanie automatycznie anulowane",
+          "Opłata za obecne zamówienie zostanie zwrócona"
+        ]
+      },
+      "options": [
+        {
+          "label": "Muszę zaktualizować adres dostawy",
+          "value": ""
+        },
+        {
+          "label": "Chcę inną opcję wysyłki",
+          "value": ""
+        },
+        {
+          "label": "Chcę przełożyć termin dostawy",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Dane osobowe",
+      "description": {
+        "title": "Podczas aktualizowania danych osobowych:",
+        "disclaimers": [
+          "Nowe zamówienie zostanie złożone w sklepie na te same produkty w tych samych cenach",
+          "Obecne zamówienie zostanie automatycznie anulowane",
+          "Opłata za obecne zamówienie zostanie zwrócona"
+        ]
+      },
+      "options": [
+        {
+          "label": "Numer telefonu kontaktowego jest błędny, chcę go zmienić",
+          "value": ""
+        },
+        {
+          "label": "Moje dane osobowe są błędne",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "płatność",
+      "name": "Płatność",
+      "description": {
+        "title": "Podczas aktualizowania informacji o płatności:",
+        "disclaimers": [
+          "Nowe zamówienie zostanie złożone w sklepie na te same produkty",
+          "Obecne zamówienie zostanie automatycznie anulowane",
+          "Opłata za obecne zamówienie zostanie zwrócona"
+        ]
+      },
+      "options": [
+        {
+          "label": "Chcę zmienić liczbę rat wybranych dla mojej karty kredytowej",
+          "value": ""
+        },
+        {
+          "label": "Chcę zmienić wybrany rodzaj płatności",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Zmień odmiany produktu",
+      "description": {
+        "title": "Po zmianie odmiany produktu:",
+        "disclaimers": [
+          "Nowe zamówienie zostanie złożone w sklepie na te same produkty",
+          "Obecne zamówienie zostanie automatycznie anulowane",
+          "Opłata za obecne zamówienie zostanie zwrócona"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kupiłem niewłaściwy numer/rozmiar i chcę to zmienić",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
