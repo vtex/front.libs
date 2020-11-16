@@ -1,36 +1,36 @@
 {
-  "name": "cancelForm",
-  "locale": "fr",
+  "name": "Formulaire d’annulation",
+  "locale": "en",
   "groups": [
     {
-      "id": "cancellation",
+      "id": "annulation",
       "name": "Annulation",
       "description": {
         "title": "",
         "disclaimers": [
-          "La commande actuelle sera annulée",
-          "La résiliation ne peut être annulée"
+          "La commande actuelle sera supprimée",
+          "L’annulation ne peut pas être effectuée"
         ]
       },
       "options": [
         {
-          "label": "Je ne désire plus ce produit.",
+          "label": "Je ne veux plus de ce produit.",
           "value": ""
         },
         {
-          "label": "J'ai acheté sans le vouloir.",
+          "label": "Je l’ai acheté par erreur.",
           "value": ""
         },
         {
-          "label": "Le délais de livraison est trop long.",
+          "label": "L'expédition prendra trop de temps.",
           "value": ""
         },
         {
-          "label": "J'ai trouvé un meilleur prix ailleurs.",
+          "label": "Je l'ai trouvé pour un meilleur prix ailleurs.",
           "value": ""
         },
         {
-          "label": "Ne pas informer.",
+          "label": "Je préfère ne pas donner de raison.",
           "value": ""
         }
       ]

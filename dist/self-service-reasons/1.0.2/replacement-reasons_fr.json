@@ -1,91 +1,91 @@
 {
-  "name": "sacForm",
+  "name": "Formsac",
   "locale": "fr",
   "groups": [
     {
-      "id": "shipping",
-      "name": "Livraison",
+      "id": "expédition",
+      "name": "Expédition",
       "description": {
-        "title": "En modifiant les informations de livraison",
+        "title": "Lorsque vous mettez à jour les informations de livraison :",
         "disclaimers": [
-          "Une nouvelle commande sera créée avec les mêmes produits",
-          "La commande actuelle sera annulée automatiquement",
-          "La facture sera remboursée par la banque"
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
         ]
       },
       "options": [
         {
-          "label": "Il me faut actualiser l'adresse de livraison.",
+          "label": "Je dois mettre à jour mon adresse de livraison",
           "value": ""
         },
         {
-          "label": "Il me faut une option de livraison différente.",
+          "label": "Je souhaite une option d’expédition différente",
           "value": ""
         },
         {
-          "label": "Il me faut un jour spécifique pour la livraison.",
+          "label": "Je souhaite reprogrammer la date de livraison",
           "value": ""
         }
       ]
     },
     {
-      "id": "profile",
-      "name": "Données personelles",
+      "id": "profil",
+      "name": "Informations personnelles",
       "description": {
-        "title": "En modifiant vos données personelles",
+        "title": "Lors de la mise à jour des informations personnelles :",
         "disclaimers": [
-          "Une nouvelle commande sera créée avec les mêmes produits et conditions",
-          "La commande actuelle sera annulée automatiquement",
-          "La facture sera remboursée par la banque"
+          "Une nouvelle commande sera placée dans le magasin avec les mêmes produits et conditions de prix",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
         ]
       },
       "options": [
         {
-          "label": "Le téléfone de contact est invalide, il me faut le mettre à jour.",
+          "label": "Le numéro de téléphone est erroné, je souhaite le modifier",
           "value": ""
         },
         {
-          "label": "Mes données personelles sont incorrectes.",
+          "label": "Mes informations personnelles sont incorrectes\n​",
           "value": ""
         }
       ]
     },
     {
-      "id": "payment",
+      "id": "paiement",
       "name": "Paiement",
       "description": {
-        "title": "En modifiant les informations de paiement",
+        "title": "Lors de la mise à jour des informations de paiement :",
         "disclaimers": [
-          "Une nouvelle commande sera créée avec les mêmes produits",
-          "La commande actuelle sera annulée automatiquement",
-          "La facture sera remboursée par la banque"
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
         ]
       },
       "options": [
         {
-          "label": "Il me faut mettre à jour la quantitée de parcelles selectionnée sur la carte de crédit.",
+          "label": "Je souhaite modifier le nombre d'acomptes choisis pour ma carte de crédit",
           "value": ""
         },
         {
-          "label": "Il me faut changer le moyen de paiement.",
+          "label": "Je souhaite modifier le type de paiement sélectionné",
           "value": ""
         }
       ]
     },
     {
       "id": "sku",
-      "name": "Changement de produit",
+      "name": "Modifier la variation du produit",
       "description": {
-        "title": "Lors de la modification de la variation du produit",
+        "title": "Lors de la modification de la variation du produit :",
         "disclaimers": [
-          "Une nouvelle commande sera créée avec les mêmes produits",
-          "La commande actuelle sera annulée automatiquement",
-          "La facture sera remboursée par la banque"
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
         ]
       },
       "options": [
         {
-          "label": "J'ai acheté une quantitée ou taille erronée",
+          "label": "J’ai acheté la mauvaise quantité/taille et je souhaite la modifier",
           "value": ""
         }
       ]

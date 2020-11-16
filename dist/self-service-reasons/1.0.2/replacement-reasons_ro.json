@@ -3,10 +3,10 @@
   "locale": "ro",
   "groups": [
     {
-      "id": "shipping",
+      "id": "expediere",
       "name": "Livrare",
       "description": {
-        "title": "Dacă modifici informatiile de livrare:",
+        "title": "Dacă modifici informațiile de livrare:",
         "disclaimers": [
           "Se va plasa o nouă comandă cu aceleași produse",
           "Această comandă va fi anulată automat",
@@ -29,12 +29,12 @@
       ]
     },
     {
-      "id": "profile",
+      "id": "profil",
       "name": "Date personale",
       "description": {
         "title": "Dacă modifici datele personale:",
         "disclaimers": [
-          "Se va plasa o nouă comandă cu aceleași produse și aceeasi politică de prețuri",
+          "Se va plasa o nouă comandă cu aceleași produse și aceeași politică de prețuri",
           "Această comandă va fi anulată automat",
           "Costurile aferente vor fi restituite"
         ]
@@ -51,10 +51,10 @@
       ]
     },
     {
-      "id": "payment",
+      "id": "plată ",
       "name": "Plata",
       "description": {
-        "title": "Dacă modifici informatiile de plată:",
+        "title": "Dacă modifici informațiile de plată:",
         "disclaimers": [
           "Se va plasa o nouă comandă cu aceleași produse",
           "Această comandă va fi anulată automat",

@@ -1,9 +1,9 @@
 {
-  "name": "cancelForm",
+  "name": "formular anulare",
   "locale": "ro",
   "groups": [
     {
-      "id": "cancellation",
+      "id": "anulare",
       "name": "Anulare",
       "description": {
         "title": "",
@@ -18,7 +18,7 @@
           "value": ""
         },
         {
-          "label": "L-am cumpărat din gresala.",
+          "label": "L-am cumpărat din greșeală.",
           "value": ""
         },
         {
@@ -26,7 +26,7 @@
           "value": ""
         },
         {
-          "label": "L-am gasit în altă parte la un preț mai bun.",
+          "label": "L-am găsit în altă parte la un preț mai bun.",
           "value": ""
         },
         {
