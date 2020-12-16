@@ -3,14 +3,14 @@
 "preserve_hierarchy": true
 files: [
  {
-  "source" : "dist/self-service-reasons/1.0.2/cancelation-reasons_en.json",
-  "translation" : "dist/self-service-reasons/1.0.2/cancelation-reasons_%two_letters_code%.json",
+  "source" : "dist/self-service-reasons/1.0.4/cancellation-reasons_en.json",
+  "translation" : "dist/self-service-reasons/1.0.4/cancellation-reasons_%two_letters_code%.json",
   "type" : "json",
  }
  ,
  {
-  "source" : "dist/self-service-reasons/1.0.2/replacement-reasons_en.json",
-  "translation" : "dist/self-service-reasons/1.0.2/replacement-reasons_%two_letters_code%.json",
+  "source" : "dist/self-service-reasons/1.0.4/replacement-reasons_en.json",
+  "translation" : "dist/self-service-reasons/1.0.4/replacement-reasons_%two_letters_code%.json",
   "type" : "json",
  }
 ]
