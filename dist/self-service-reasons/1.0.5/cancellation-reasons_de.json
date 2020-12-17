@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "de",
+  "groups": [
+    {
+      "id": "Annullierung",
+      "name": "Annullierung",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Der aktuelle Auftrag wird annuliert",
+          "Die Annullierung kann nicht rückgängig gemacht werden"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ich möchte dieses Produkt nicht mehr.",
+          "value": ""
+        },
+        {
+          "label": "Ich habe versehentlich gekauft.",
+          "value": ""
+        },
+        {
+          "label": "Der Versand dauert zu lange.",
+          "value": ""
+        },
+        {
+          "label": "Ich fand es für einen besseren Preis anderswo.",
+          "value": ""
+        },
+        {
+          "label": "Ich möchte lieber nicht sagen.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
