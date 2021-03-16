@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.11.0] - 2021-03-16
+
 ### Added
 
 - `angular-ui-router@0.4.3`
