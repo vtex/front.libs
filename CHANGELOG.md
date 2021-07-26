@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.11.3] - 2021-07-26
+
+### Added
+
+- `front.phone` package version `4.10.3`.
+
 ## [2.11.2] - 2021-03-24
 
 ### Fixed
