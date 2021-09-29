@@ -1,16 +1,5 @@
-"project_id" : "385019"
-"base_url" : "https://api.crowdin.com"
-"preserve_hierarchy": true
-files: [
- {
-  "source" : "dist/self-service-reasons/1.0.4/cancellation-reasons_en.json",
-  "translation" : "dist/self-service-reasons/1.0.4/cancellation-reasons_%two_letters_code%.json",
-  "type" : "json",
- }
- ,
- {
-  "source" : "dist/self-service-reasons/1.0.4/replacement-reasons_en.json",
-  "translation" : "dist/self-service-reasons/1.0.4/replacement-reasons_%two_letters_code%.json",
-  "type" : "json",
- }
-]
+files:
+  - source: dist/self-service-reasons/1.0.7/cancellation-reasons_en.json
+    translation: dist/self-service-reasons/1.0.7/cancellation-reasons_%two_letters_code%.json
+  - source: dist/self-service-reasons/1.0.7/replacement-reasons_en.json
+    translation: dist/self-service-reasons/1.0.7/replacement-reasons_%two_letters_code%.json

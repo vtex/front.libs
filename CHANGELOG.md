@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- I18n Bg and Ar.
+
+### Fixed
+
+- Crowdin configuration file
+
 ## [2.11.5] - 2021-08-31
 ### Added
 - `front.phone` package version `4.10.5`.
