@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- I18n Bg and Ar.
+- Version `1.0.8` for `self-service-reasons` with fixed translations and new translations for CS and NL.
 
 ### Fixed
 

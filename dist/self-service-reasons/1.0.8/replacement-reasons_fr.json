@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "fr",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Livraison",
+      "description": {
+        "title": "En modifiant les informations de livraison",
+        "disclaimers": [
+          "Une nouvelle commande sera créée avec les mêmes produits",
+          "La commande actuelle sera annulée automatiquement",
+          "La facture sera remboursée par la banque"
+        ]
+      },
+      "options": [
+        {
+          "label": "Il me faut actualiser l'adresse de livraison.",
+          "value": ""
+        },
+        {
+          "label": "Il me faut une option de livraison différente.",
+          "value": ""
+        },
+        {
+          "label": "Il me faut un jour spécifique pour la livraison.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Données personelles",
+      "description": {
+        "title": "En modifiant vos données personelles",
+        "disclaimers": [
+          "Une nouvelle commande sera créée avec les mêmes produits et conditions",
+          "La commande actuelle sera annulée automatiquement",
+          "La facture sera remboursée par la banque"
+        ]
+      },
+      "options": [
+        {
+          "label": "Le téléfone de contact est invalide, il me faut le mettre à jour.",
+          "value": ""
+        },
+        {
+          "label": "Mes données personelles sont incorrectes.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Paiement",
+      "description": {
+        "title": "En modifiant les informations de paiement",
+        "disclaimers": [
+          "Une nouvelle commande sera créée avec les mêmes produits",
+          "La commande actuelle sera annulée automatiquement",
+          "La facture sera remboursée par la banque"
+        ]
+      },
+      "options": [
+        {
+          "label": "Il me faut mettre à jour la quantitée de parcelles selectionnée sur la carte de crédit.",
+          "value": ""
+        },
+        {
+          "label": "Il me faut changer le moyen de paiement.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Changement de produit",
+      "description": {
+        "title": "Lors de la modification de la variation du produit",
+        "disclaimers": [
+          "Une nouvelle commande sera créée avec les mêmes produits",
+          "La commande actuelle sera annulée automatiquement",
+          "La facture sera remboursée par la banque"
+        ]
+      },
+      "options": [
+        {
+          "label": "J'ai acheté une quantitée ou taille erronée",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

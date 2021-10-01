@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "fr",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Annulation",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "La commande actuelle sera annulée",
+          "La résiliation ne peut être annulée"
+        ]
+      },
+      "options": [
+        {
+          "label": "Je ne désire plus ce produit.",
+          "value": ""
+        },
+        {
+          "label": "J'ai acheté sans le vouloir.",
+          "value": ""
+        },
+        {
+          "label": "Le délais de livraison est trop long.",
+          "value": ""
+        },
+        {
+          "label": "J'ai trouvé un meilleur prix ailleurs.",
+          "value": ""
+        },
+        {
+          "label": "Ne pas informer.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
