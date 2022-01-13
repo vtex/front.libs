@@ -1,5 +1,5 @@
 files:
-  - source: dist/self-service-reasons/1.0.8/cancellation-reasons_en.json
-    translation: /dist/self-service-reasons/1.0.8/cancellation-reasons_%two_letters_code%.json
-  - source: dist/self-service-reasons/1.0.8/replacement-reasons_en.json
-    translation: /dist/self-service-reasons/1.0.8/replacement-reasons_%two_letters_code%.json
+  - source: dist/self-service-reasons/1.0.9/cancellation-reasons_en.json
+    translation: /dist/self-service-reasons/1.0.9/cancellation-reasons_%two_letters_code%.json
+  - source: dist/self-service-reasons/1.0.9/replacement-reasons_en.json
+    translation: /dist/self-service-reasons/1.0.9/replacement-reasons_%two_letters_code%.json

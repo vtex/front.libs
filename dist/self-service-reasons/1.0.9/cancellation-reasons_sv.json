@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "sv",
+  "groups": [
+    {
+      "id": "Avbryt",
+      "name": "Avbryt",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Den nuvarande beställningen kommer att avbrytas",
+          "Avbrytande kan inte ångras"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jag vill inte ha den här produkten längre.",
+          "value": ""
+        },
+        {
+          "label": "Jag köpte av misstag.",
+          "value": ""
+        },
+        {
+          "label": "Leveransen tar för lång tid.",
+          "value": ""
+        },
+        {
+          "label": "Jag hittade det till ett bättre pris någon annanstans.",
+          "value": ""
+        },
+        {
+          "label": "Jag berättar helst inte.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

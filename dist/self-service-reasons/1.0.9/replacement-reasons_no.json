@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "no",
+  "groups": [
+    {
+      "id": "forsendelse",
+      "name": "Forsendelse",
+      "description": {
+        "title": "Når du oppdaterer leveringsinformasjon:",
+        "disclaimers": [
+          "En ny bestilling med de samme produktene blir lagt inn i butikken",
+          "Den nåværende bestillingen blir automatisk avbestilt",
+          "Gjeldende kostnad blir refundert"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg må oppdatere leveringsadressen",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil ha et annet fraktalternativ",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil endre leveringsdatoen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Personlig informasjon",
+      "description": {
+        "title": "Når du oppdaterer personlig informasjon:",
+        "disclaimers": [
+          "En ny bestilling med de samme produktene og prisbetingelsene blir lagt inn i butikken",
+          "Den nåværende bestillingen blir automatisk avbestilt",
+          "Gjeldende kostnad blir refundert"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kontakttelefonnummeret er feil, jeg vil endre det",
+          "value": ""
+        },
+        {
+          "label": "Min personlige informasjon er feil",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "betaling",
+      "name": "Betaling",
+      "description": {
+        "title": "Når du oppdaterer betalingsinformasjon:",
+        "disclaimers": [
+          "En ny bestilling med de samme produktene blir lagt inn i butikken",
+          "Den nåværende bestillingen blir automatisk avbestilt",
+          "Gjeldende kostnad blir refundert"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg vil endre antall avdrag som er valgt for kredittkortet mitt",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil endre den valgte betalingstypen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Endre produktvariasjon",
+      "description": {
+        "title": "Når du endrer produktvarianten:",
+        "disclaimers": [
+          "En ny bestilling med de samme produktene blir lagt inn i butikken",
+          "Den nåværende bestillingen blir automatisk avbestilt",
+          "Gjeldende kostnad blir refundert"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg kjøpte feil antall / størrelse og vil endre det",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

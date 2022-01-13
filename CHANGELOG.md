@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Arabic, Bulgarian, Czech, German, English, Spanish, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romanian, Russian, Slovenian, Swedish, Ukranian translations.
+
 ## [2.12.0] - 2022-01-27
 ### Added
 - `front.phone` package version `4.11.0`.

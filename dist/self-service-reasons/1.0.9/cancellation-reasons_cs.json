@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "cs",
+  "groups": [
+    {
+      "id": "zrušení",
+      "name": "Zrušení",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Tato objednávka bude zrušena",
+          "Zrušení není možné vrátit zpět"
+        ]
+      },
+      "options": [
+        {
+          "label": "Tento produkt už nechci.",
+          "value": ""
+        },
+        {
+          "label": "Nákup byl proveden omylem.",
+          "value": ""
+        },
+        {
+          "label": "Doprava by trvala příliš dlouho.",
+          "value": ""
+        },
+        {
+          "label": "Jiný prodejce nabízí produkt za lepší cenu.",
+          "value": ""
+        },
+        {
+          "label": "Nepřeji si odpovídat.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "no",
+  "groups": [
+    {
+      "id": "avbestilling",
+      "name": "Avbestilling",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Den nåværende bestillingen blir avbestilt",
+          "Avbestillingen kan ikke angres"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jeg vil ikke ha dette produktet lenger.",
+          "value": ""
+        },
+        {
+          "label": "Jeg kjøpte ved en feiltakelse.",
+          "value": ""
+        },
+        {
+          "label": "Frakten vil ta for lang tid.",
+          "value": ""
+        },
+        {
+          "label": "Jeg fant det til en bedre pris andre steder.",
+          "value": ""
+        },
+        {
+          "label": "Jeg vil ikke oppgi årsak.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

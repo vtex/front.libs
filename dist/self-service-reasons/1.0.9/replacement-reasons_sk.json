@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "sk",
+  "groups": [
+    {
+      "id": "dodanie",
+      "name": "Dodanie",
+      "description": {
+        "title": "Keď aktualizujete informácie o doručení:",
+        "disclaimers": [
+          "V obchode sa zadá nová objednávka s rovnakými výrobkami",
+          "Aktuálna objednávka bude automaticky zrušená",
+          "Aktuálny poplatok bude vrátený"
+        ]
+      },
+      "options": [
+        {
+          "label": "Musím aktualizovať svoju dodaciu adresu",
+          "value": ""
+        },
+        {
+          "label": "Chcem inú možnosť dopravy",
+          "value": ""
+        },
+        {
+          "label": "Chcem zmeniť termín dodania",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Osobné údaje",
+      "description": {
+        "title": "Pri aktualizácii osobných údajov:",
+        "disclaimers": [
+          "V obchode sa zadá nová objednávka s rovnakými výrobkami a cenovými podmienkami",
+          "Aktuálna objednávka bude automaticky zrušená",
+          "Aktuálny poplatok bude vrátený"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kontaktné telefónne číslo je nesprávne, chcem ho zmeniť",
+          "value": ""
+        },
+        {
+          "label": "Moje osobné údaje sú nesprávne",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "platba",
+      "name": "Platba",
+      "description": {
+        "title": "Pri aktualizácii platobných údajov:",
+        "disclaimers": [
+          "V obchode sa zadá nová objednávka s rovnakými výrobkami",
+          "Aktuálna objednávka bude automaticky zrušená",
+          "Aktuálny poplatok bude vrátený"
+        ]
+      },
+      "options": [
+        {
+          "label": "Chcem zmeniť počet splátok zvolených pre moju kreditnú kartu",
+          "value": ""
+        },
+        {
+          "label": "Chcem zmeniť zvolený typ platby",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Zmena variácie výrobku",
+      "description": {
+        "title": "Keď zmeníte variáciu výrobku:",
+        "disclaimers": [
+          "V obchode sa zadá nová objednávka s rovnakými výrobkami",
+          "Aktuálna objednávka bude automaticky zrušená",
+          "Aktuálny poplatok bude vrátený"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kúpil som nesprávne číslo/veľkosť a chcem ho zmeniť",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
