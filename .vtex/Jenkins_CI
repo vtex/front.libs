@@ -61,14 +61,20 @@ def reportStatus(status, message) {
 }
 
 def updateGitStatus(status, message) {
-    def payload = JsonOutput.toJson([
-        state: status,
-        context:"Jenkins:$JOB_BASE_NAME",
-        description: "${message} $SOURCE_VERSION#$BUILD_NUMBER",
-        target_url: "$RUN_DISPLAY_URL"
-    ])
+    switch (status) {
+        case 'success':
+            status = "SUCCESS"
+            break;
+        case 'failure':
+        case 'error':
+            status = "FAILURE"
+            break;
+        default:
+            status = "PENDING"
+            break;
+    }
     withCredentials([string(credentialsId: 'pachamama-access-token', variable: 'MY_SECRET_GIT_TOKEN')]) {
-        sh "curl 'https://api.github.com/repos/$ORGANIZATION/$REPOSITORY_NAME/statuses/$SOURCE_ID' -H 'Content-Type: application/json' -H 'Authorization: token $MY_SECRET_GIT_TOKEN' -X POST -d '${payload}' -s -o /dev/null"
+        githubNotify account: params.ORGANIZATION, repo: params.REPOSITORY_NAME, sha: params.SOURCE_ID, status: status, context: "Jenkins:${env.JOB_BASE_NAME}", description: "${message} #${env.BUILD_NUMBER}", targetUrl: env.RUN_DISPLAY_URL, credentialsId: 'pachamama-user-token',  gitApiUrl: ''   
     }
 }
 
