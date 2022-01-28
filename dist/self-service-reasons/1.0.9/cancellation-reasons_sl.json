@@ -1,36 +1,36 @@
 {
   "name": "cancelForm",
-  "locale": "ro",
+  "locale": "sl",
   "groups": [
     {
       "id": "cancellation",
-      "name": "Anulare",
+      "name": "Preklic",
       "description": {
         "title": "",
         "disclaimers": [
-          "Comanda curentă va fi anulată",
-          "Anularea este ireversibilă"
+          "Trenutno naročilo bo preklicano",
+          "Preklic se ne more razveljaviti"
         ]
       },
       "options": [
         {
-          "label": "Nu mai vreau acest produs.",
+          "label": "Tega izdelka ne želim več.",
           "value": ""
         },
         {
-          "label": "L-am cumpărat din greșeală.",
+          "label": "Kupil sem po pomoti.",
           "value": ""
         },
         {
-          "label": "Timpul de livrare este prea lung.",
+          "label": "Pošiljanje bo trajalo predolgo.",
           "value": ""
         },
         {
-          "label": "L-am găsit în altă parte la un preț mai bun.",
+          "label": "Našel sem ga drugje za boljšo ceno.",
           "value": ""
         },
         {
-          "label": "Prefer să nu nu specific.",
+          "label": "Raje ne bi povedal.",
           "value": ""
         }
       ]

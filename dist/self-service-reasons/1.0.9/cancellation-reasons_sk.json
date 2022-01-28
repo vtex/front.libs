@@ -1,36 +1,36 @@
 {
   "name": "cancelForm",
-  "locale": "ro",
+  "locale": "sk",
   "groups": [
     {
       "id": "cancellation",
-      "name": "Anulare",
+      "name": "Zrušenie",
       "description": {
         "title": "",
         "disclaimers": [
-          "Comanda curentă va fi anulată",
-          "Anularea este ireversibilă"
+          "Aktuálna objednávka bude zrušená",
+          "Zrušenie nie je možné vrátiť späť"
         ]
       },
       "options": [
         {
-          "label": "Nu mai vreau acest produs.",
+          "label": "Tento výrobok už nechcem.",
           "value": ""
         },
         {
-          "label": "L-am cumpărat din greșeală.",
+          "label": "Kúpil som to omylom.",
           "value": ""
         },
         {
-          "label": "Timpul de livrare este prea lung.",
+          "label": "Dodanie bude trvať príliš dlho.",
           "value": ""
         },
         {
-          "label": "L-am găsit în altă parte la un preț mai bun.",
+          "label": "Našiel som to za lepšiu cenu inde.",
           "value": ""
         },
         {
-          "label": "Prefer să nu nu specific.",
+          "label": "Radšej nepoviem.",
           "value": ""
         }
       ]
