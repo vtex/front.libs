@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.12.0] - 2022-01-27
+### Added
+- `front.phone` package version `4.11.0`.
+
 ## [2.11.7] - 2021-10-25
 ### Added
 - `front.phone` package version `4.10.8`.
@@ -69,3 +73,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - Version `1.0.5` for `self-service-reasons` with fixed translations and new translations for CS and NL.
+
+
+[Unreleased]: https://github.com/vtex/front.libs/compare/v2.12.0...HEAD
+[2.12.0]: https://github.com/vtex/front.libs/compare/v2.11.7...v2.12.0
