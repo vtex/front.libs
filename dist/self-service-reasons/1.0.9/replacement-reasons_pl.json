@@ -3,7 +3,7 @@
   "locale": "pl",
   "groups": [
     {
-      "id": "wysyłka",
+      "id": "shipping",
       "name": "Wysyłka",
       "description": {
         "title": "Po zaktualizowaniu informacji o dostawie:",

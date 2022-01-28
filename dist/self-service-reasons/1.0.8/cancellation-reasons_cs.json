@@ -3,7 +3,7 @@
   "locale": "cs",
   "groups": [
     {
-      "id": "zrušení",
+      "id": "cancellation",
       "name": "Zrušení",
       "description": {
         "title": "",

@@ -3,7 +3,7 @@
   "locale": "sk",
   "groups": [
     {
-      "id": "dodanie",
+      "id": "shipping",
       "name": "Dodanie",
       "description": {
         "title": "Keď aktualizujete informácie o doručení:",

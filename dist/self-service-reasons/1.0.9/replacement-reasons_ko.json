@@ -3,7 +3,7 @@
   "locale": "ko",
   "groups": [
     {
-      "id": "배송",
+      "id": "shipping",
       "name": "배송",
       "description": {
         "title": "배송 정보를 업데이트할 때:",

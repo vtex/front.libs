@@ -3,7 +3,7 @@
   "locale": "sv",
   "groups": [
     {
-      "id": "frakt",
+      "id": "shipping",
       "name": "Leverans",
       "description": {
         "title": "När du uppdaterar leveransinformation:",

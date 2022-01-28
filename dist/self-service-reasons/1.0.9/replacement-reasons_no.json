@@ -3,7 +3,7 @@
   "locale": "no",
   "groups": [
     {
-      "id": "forsendelse",
+      "id": "shipping",
       "name": "Forsendelse",
       "description": {
         "title": "Når du oppdaterer leveringsinformasjon:",

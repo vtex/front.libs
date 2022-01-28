@@ -3,7 +3,7 @@
   "locale": "ru",
   "groups": [
     {
-      "id": "аннулирование",
+      "id": "cancellation",
       "name": "Аннулирование",
       "description": {
         "title": "",

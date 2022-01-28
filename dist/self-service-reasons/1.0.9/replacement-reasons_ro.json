@@ -3,7 +3,7 @@
   "locale": "ro",
   "groups": [
     {
-      "id": "expediere",
+      "id": "shipping",
       "name": "Expediere",
       "description": {
         "title": "Dacă modifici informațiile de livrare:",

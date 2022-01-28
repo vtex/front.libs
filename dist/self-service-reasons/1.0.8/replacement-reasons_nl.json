@@ -3,7 +3,7 @@
   "locale": "nl",
   "groups": [
     {
-      "id": "verzending",
+      "id": "shipping",
       "name": "Verzending",
       "description": {
         "title": "Wanneer u de leveringsinformatie bijwerkt:",

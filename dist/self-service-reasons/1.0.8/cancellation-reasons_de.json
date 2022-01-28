@@ -3,7 +3,7 @@
   "locale": "de",
   "groups": [
     {
-      "id": "stornierung",
+      "id": "cancellation",
       "name": "Stornierung",
       "description": {
         "title": "",

@@ -3,7 +3,7 @@
   "locale": "sl",
   "groups": [
     {
-      "id": "preklic",
+      "id": "cancellation",
       "name": "Preklic",
       "description": {
         "title": "",

@@ -3,7 +3,7 @@
   "locale": "bg",
   "groups": [
     {
-      "id": "доставка",
+      "id": "shipping",
       "name": "Доставка",
       "description": {
         "title": "При обновяване на данните за доставка:",

@@ -3,7 +3,7 @@
   "locale": "it",
   "groups": [
     {
-      "id": "spedizione",
+      "id": "shipping",
       "name": "Spedizione",
       "description": {
         "title": "Quando aggiorni le informazioni sulla consegna:",

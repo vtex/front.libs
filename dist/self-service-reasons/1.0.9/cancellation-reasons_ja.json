@@ -3,7 +3,7 @@
   "locale": "ja",
   "groups": [
     {
-      "id": "キャンセル",
+      "id": "cancellation",
       "name": "キャンセル",
       "description": {
         "title": "",

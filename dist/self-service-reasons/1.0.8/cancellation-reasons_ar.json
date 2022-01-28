@@ -3,7 +3,7 @@
   "locale": "ar",
   "groups": [
     {
-      "id": "إلغاء",
+      "id": "cancellation",
       "name": "إلغاء",
       "description": {
         "title": "",

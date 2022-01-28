@@ -3,7 +3,7 @@
   "locale": "sl",
   "groups": [
     {
-      "id": "odpošiljanje",
+      "id": "shipping",
       "name": "Odpošiljanje",
       "description": {
         "title": "Ko posodobite informacije o dobavi:",

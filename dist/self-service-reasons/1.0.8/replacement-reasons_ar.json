@@ -3,7 +3,7 @@
   "locale": "ar",
   "groups": [
     {
-      "id": "الشحن",
+      "id": "shipping",
       "name": "الشحن",
       "description": {
         "title": "عند تحديث معلومات التسليم:",

@@ -3,7 +3,7 @@
   "locale": "bg",
   "groups": [
     {
-      "id": "отмяна",
+      "id": "cancellation",
       "name": "Отмяна",
       "description": {
         "title": "",

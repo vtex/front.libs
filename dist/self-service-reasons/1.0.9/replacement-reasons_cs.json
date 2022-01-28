@@ -3,7 +3,7 @@
   "locale": "cs",
   "groups": [
     {
-      "id": "odesílání",
+      "id": "shipping",
       "name": "Doprava",
       "description": {
         "title": "Když aktualizujete svou doručovací adresu:",

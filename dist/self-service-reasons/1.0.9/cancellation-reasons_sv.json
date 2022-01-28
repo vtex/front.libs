@@ -3,7 +3,7 @@
   "locale": "sv",
   "groups": [
     {
-      "id": "Avbryt",
+      "id": "cancellation",
       "name": "Avbryt",
       "description": {
         "title": "",

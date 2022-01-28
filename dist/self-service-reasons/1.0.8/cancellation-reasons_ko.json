@@ -3,7 +3,7 @@
   "locale": "ko",
   "groups": [
     {
-      "id": "취소",
+      "id": "cancellation",
       "name": "취소",
       "description": {
         "title": "",

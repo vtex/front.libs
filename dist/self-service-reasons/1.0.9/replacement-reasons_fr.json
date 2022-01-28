@@ -3,7 +3,7 @@
   "locale": "fr",
   "groups": [
     {
-      "id": "expédition",
+      "id": "shipping",
       "name": "Expédition",
       "description": {
         "title": "Lorsque vous mettez à jour les informations de livraison :",

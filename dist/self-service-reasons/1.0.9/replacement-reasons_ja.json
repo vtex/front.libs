@@ -3,7 +3,7 @@
   "locale": "ja",
   "groups": [
     {
-      "id": "発送",
+      "id": "shipping",
       "name": "発送",
       "description": {
         "title": "配送情報を更新する時:",

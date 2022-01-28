@@ -3,7 +3,7 @@
   "locale": "no",
   "groups": [
     {
-      "id": "avbestilling",
+      "id": "cancellation",
       "name": "Avbestilling",
       "description": {
         "title": "",

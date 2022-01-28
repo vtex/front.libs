@@ -3,7 +3,7 @@
   "locale": "ru",
   "groups": [
     {
-      "id": "отправка",
+      "id": "shipping",
       "name": "Отправка",
       "description": {
         "title": "Когда вы обновляете данные доставки:",

@@ -3,7 +3,7 @@
   "locale": "ro",
   "groups": [
     {
-      "id": "anulare",
+      "id": "cancellation",
       "name": "Anulare",
       "description": {
         "title": "",
