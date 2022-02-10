@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.14.0] - 2022-02-10
+
 ### Added
 - `front.phone` package version `4.13.1`.
 - Version `1.10.0` for `self-service-reasons` with new translations for NN.
