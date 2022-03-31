@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "ro",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Expediere",
+      "description": {
+        "title": "Dacă modifici informațiile de livrare:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse",
+          "Această comandă va fi anulată automat",
+          "Costul curent va fi restituit"
+        ]
+      },
+      "options": [
+        {
+          "label": "Vreau să modific adresa de livrare",
+          "value": ""
+        },
+        {
+          "label": "Vreau o altă opțiune de expediere",
+          "value": ""
+        },
+        {
+          "label": "Vreau să reprogramez data de livrare",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Informații personale",
+      "description": {
+        "title": "La actualizarea informațiilor personale:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă cu aceleași produse și aceeași politică de prețuri",
+          "Comanda curentă va fi anulată automat",
+          "Costul curent va fi restituit"
+        ]
+      },
+      "options": [
+        {
+          "label": "Numărul de contact este greșit, doresc să-l modific",
+          "value": ""
+        },
+        {
+          "label": "Informațiile mele personale sunt incorecte",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "plată",
+      "name": "Plată",
+      "description": {
+        "title": "Dacă modifici informațiile de plată:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă în magazin cu aceleași produse",
+          "Comanda curentă va fi anulată automat",
+          "Costul curent va fi restituit"
+        ]
+      },
+      "options": [
+        {
+          "label": "Vreau să modific numărul de rate selectat pentru cardul meu de credit",
+          "value": ""
+        },
+        {
+          "label": "Vreau să modific tipul de plată selectat",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Modifică variațiile produsului",
+      "description": {
+        "title": "Când modifici variațiile produsului:",
+        "disclaimers": [
+          "Se va plasa o nouă comandă în magazin cu aceleași produse",
+          "Comanda curentă va fi anulată automat",
+          "Costurile aferente vor fi restituite"
+        ]
+      },
+      "options": [
+        {
+          "label": "Am cumpărat mărimea greșită și vreau să o schimb",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
