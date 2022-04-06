@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "sv",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Leverans",
+      "description": {
+        "title": "När du uppdaterar leveransinformation:",
+        "disclaimers": [
+          "En ny beställning kommer att placeras i butiken med samma produkter",
+          "Den nuvarande beställningen kommer att annulleras automatiskt",
+          "Den aktuella avgiften återbetalas"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jag måste uppdatera min leveransadress",
+          "value": ""
+        },
+        {
+          "label": "Jag vill ha ett annat leveransalternativ",
+          "value": ""
+        },
+        {
+          "label": "Jag vill planera om leveransdatumet",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profil",
+      "name": "Personlig information",
+      "description": {
+        "title": "Vid uppdatering av personlig information:",
+        "disclaimers": [
+          "En ny beställning kommer att placeras i butiken med samma produkter och prisvillkor",
+          "Den nuvarande beställningen kommer att annulleras automatiskt",
+          "Den aktuella avgiften återbetalas"
+        ]
+      },
+      "options": [
+        {
+          "label": "Telefonnumret för kontakt är fel, jag vill ändra det",
+          "value": ""
+        },
+        {
+          "label": "Min personliga information är felaktig",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "Betalning",
+      "name": "Betalning",
+      "description": {
+        "title": "Vid uppdatering av betalningsinformation:",
+        "disclaimers": [
+          "En ny beställning kommer att placeras i butiken med samma produkter",
+          "Den nuvarande beställningen kommer att annulleras automatiskt",
+          "Den aktuella avgiften återbetalas"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jag vill ändra antalet avbetalningar som valts för mitt kreditkort",
+          "value": ""
+        },
+        {
+          "label": "Jag vill ändra den valda betalningstypen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Ändra produktvariation",
+      "description": {
+        "title": "När du ändrar produktvariationen:",
+        "disclaimers": [
+          "En ny beställning kommer att placeras i butiken med samma produkter",
+          "Den nuvarande beställningen kommer att annulleras automatiskt",
+          "Den aktuella avgiften återbetalas"
+        ]
+      },
+      "options": [
+        {
+          "label": "Jag köpte fel nummer/storlek och vill ändra det",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

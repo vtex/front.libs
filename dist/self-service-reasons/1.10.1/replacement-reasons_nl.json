@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "nl",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Verzending",
+      "description": {
+        "title": "Wanneer u de leveringsinformatie bijwerkt:",
+        "disclaimers": [
+          "Er wordt een nieuwe bestelling geplaatst in de winkel met dezelfde producten",
+          "De huidige bestelling wordt automatisch geannuleerd",
+          "De huidige kosten zullen worden terugbetaald"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ik moet mijn leveringsadres bijwerken",
+          "value": ""
+        },
+        {
+          "label": "Ik wil een andere verzendoptie",
+          "value": ""
+        },
+        {
+          "label": "Ik wil de leveringsdatum opnieuw inplannen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profiel",
+      "name": "Persoonlijke gegevens",
+      "description": {
+        "title": "Bij het updaten van persoonlijke informatie:",
+        "disclaimers": [
+          "Er wordt een nieuwe bestelling geplaatst in de winkel met dezelfde producten en prijscondities",
+          "De huidige bestelling wordt automatisch geannuleerd",
+          "De huidige kosten zullen worden terugbetaald"
+        ]
+      },
+      "options": [
+        {
+          "label": "Het telefoonnummer van de contactpersoon is verkeerd, ik wil het graag veranderen",
+          "value": ""
+        },
+        {
+          "label": "Mijn persoonlijke gegevens zijn onjuist",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "betaling",
+      "name": "Betaling",
+      "description": {
+        "title": "Bij het updaten van de betalingsinformatie:",
+        "disclaimers": [
+          "Er wordt een nieuwe bestelling geplaatst in de winkel met dezelfde producten",
+          "De huidige bestelling wordt automatisch geannuleerd",
+          "De huidige kosten zullen worden terugbetaald"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ik wil het aantal geselecteerde termijnen voor mijn creditcard wijzigen",
+          "value": ""
+        },
+        {
+          "label": "Ik wil de geselecteerde betaalwijze wijzigen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Wijzig productvariatie",
+      "description": {
+        "title": "Wanneer u de productvariatie wijzigt:",
+        "disclaimers": [
+          "Er wordt een nieuwe bestelling geplaatst in de winkel met dezelfde producten",
+          "De huidige bestelling wordt automatisch geannuleerd",
+          "De huidige kosten zullen worden terugbetaald"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ik heb het verkeerde nummer/formaat gekocht en wil het veranderen",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
