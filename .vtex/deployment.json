@@ -11,9 +11,10 @@
         "AWS_REGION": "us-east-1",
         "SLACK_CHANNEL": "checkout-ui-notifications",
         "CUSTOM_PIPELINE": true,
-        "PIPELINE_CI":".vtex/Jenkins_CI",
-        "PIPELINE_Deploy":".vtex/Jenkins_Deploy"
+        "PIPELINE_CI": ".vtex/Jenkins_CI",
+        "PIPELINE_Deploy": ".vtex/Jenkins_Deploy"
       }
-    }
+    },
+    "iamInstanceProfile": "BeanstalkRole_front.libs"
   }
 ]
