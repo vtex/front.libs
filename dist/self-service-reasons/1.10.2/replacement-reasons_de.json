@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "de",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Versand",
+      "description": {
+        "title": "Wenn Sie die Lieferinformationen aktualisieren:",
+        "disclaimers": [
+          "Eine neue Bestellung wird im Geschäft mit den gleichen Produkten aufgegeben",
+          "Die aktuelle Bestellung wird automatisch storniert",
+          "Die aktuelle Gebühr wird zurückerstattet"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ich muss meine Lieferadresse aktualisieren",
+          "value": ""
+        },
+        {
+          "label": "Ich möchte eine andere Versandoption",
+          "value": ""
+        },
+        {
+          "label": "Ich möchte den Liefertermin verschieben",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Persönliche Daten",
+      "description": {
+        "title": "Bei der Aktualisierung persönlicher Informationen:",
+        "disclaimers": [
+          "Eine neue Bestellung wird im Geschäft mit den gleichen Produkten und Preisbedingungen aufgegeben",
+          "Die aktuelle Bestellung wird automatisch storniert",
+          "Die aktuelle Gebühr wird zurückerstattet"
+        ]
+      },
+      "options": [
+        {
+          "label": "Die Kontakttelefonnummer ist falsch, ich möchte sie ändern",
+          "value": ""
+        },
+        {
+          "label": "Meine persönlichen Daten sind falsch",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Zahlung",
+      "description": {
+        "title": "Bei der Aktualisierung persönlicher Informationen:",
+        "disclaimers": [
+          "Eine neue Bestellung wird im Geschäft mit den gleichen Produkten aufgegeben",
+          "Die aktuelle Bestellung wird automatisch storniert",
+          "Die aktuelle Gebühr wird zurückerstattet"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ich möchte die Anzahl der für meine Kreditkarte ausgewählten Ratenzahlungen ändern",
+          "value": ""
+        },
+        {
+          "label": "Ich möchte die ausgewählte Zahlungsart ändern",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Produktvariation ändern",
+      "description": {
+        "title": "Wenn Sie die Produktvariante ändern:",
+        "disclaimers": [
+          "Eine neue Bestellung wird im Geschäft mit den gleichen Produkten aufgegeben",
+          "Die aktuelle Bestellung wird automatisch storniert",
+          "Die aktuelle Gebühr wird zurückerstattet"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ich habe die falsche Nummer/Größe bestellt und möchte sie ändern",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
