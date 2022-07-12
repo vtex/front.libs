@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "fr",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Expédition",
+      "description": {
+        "title": "Lorsque vous mettez à jour les informations de livraison :",
+        "disclaimers": [
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
+        ]
+      },
+      "options": [
+        {
+          "label": "Je dois mettre à jour mon adresse de livraison",
+          "value": ""
+        },
+        {
+          "label": "Je souhaite une option d’expédition différente",
+          "value": ""
+        },
+        {
+          "label": "Je souhaite reprogrammer la date de livraison",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Informations personnelles",
+      "description": {
+        "title": "Lors de la mise à jour des informations personnelles :",
+        "disclaimers": [
+          "Une nouvelle commande sera placée dans le magasin avec les mêmes produits et conditions de prix",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
+        ]
+      },
+      "options": [
+        {
+          "label": "Le numéro de téléphone est erroné, je souhaite le modifier",
+          "value": ""
+        },
+        {
+          "label": "Mes informations personnelles sont incorrectes\n​",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Paiement",
+      "description": {
+        "title": "Lors de la mise à jour des informations de paiement :",
+        "disclaimers": [
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
+        ]
+      },
+      "options": [
+        {
+          "label": "Je souhaite modifier le nombre d'acomptes choisis pour ma carte de crédit",
+          "value": ""
+        },
+        {
+          "label": "Je souhaite modifier le type de paiement sélectionné",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Modifier la variation du produit",
+      "description": {
+        "title": "Lors de la modification de la variation du produit :",
+        "disclaimers": [
+          "Une nouvelle commande sera passée en magasin avec les mêmes produits",
+          "La commande actuelle sera automatiquement supprimée",
+          "Les frais actuels seront remboursés"
+        ]
+      },
+      "options": [
+        {
+          "label": "J’ai acheté la mauvaise quantité/taille et je souhaite la modifier",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

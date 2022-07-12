@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "cs",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Doprava",
+      "description": {
+        "title": "Když aktualizujete svou doručovací adresu:",
+        "disclaimers": [
+          "Obchod obdrží novou objednávku se stejnými produkty",
+          "Současná objednávka bude zrušena",
+          "Platba za zrušenou objednávku bude vrácena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Potřebuji aktualizovat svou doručovací adresu",
+          "value": ""
+        },
+        {
+          "label": "Chci jinou možnost dopravy",
+          "value": ""
+        },
+        {
+          "label": "Chci změnit termín dodání",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Osobní údaje",
+      "description": {
+        "title": "Když aktualizujete své osobní údaje:",
+        "disclaimers": [
+          "Obchod obdrží novou objednávku stejných produktů za stejnou cenu",
+          "Současná objednávka bude zrušena",
+          "Platba za zrušenou objednávku bude vrácena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kontaktní telefonní číslo je chybné, chtěl(a) bych ho změnit",
+          "value": ""
+        },
+        {
+          "label": "Mé osobní údaje jsou chybné",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Platba",
+      "description": {
+        "title": "Když aktualizujete své platební údaje:",
+        "disclaimers": [
+          "Obchod obdrží novou objednávku se stejnými produkty",
+          "Současná objednávka bude zrušena",
+          "Platba za zrušenou objednávku bude vrácena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Chci změnit vybraný počet splátek na své kreditní kartě",
+          "value": ""
+        },
+        {
+          "label": "Chci změnit vybraný způsob platby",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Změnit variantu produktu",
+      "description": {
+        "title": "Když chcete změnit variantu produktu:",
+        "disclaimers": [
+          "Obchod obdrží novou objednávku se stejnými produkty",
+          "Současná objednávka bude zrušena",
+          "Platba za zrušenou objednávku bude vrácena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Zakoupil(a) jsem nesprávnou velikost a chci produkt vyměnit",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
