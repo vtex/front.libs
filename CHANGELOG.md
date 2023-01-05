@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Version `1.12.0` for `self-service-reasons` with new translations for Catalan (CA).
+
+### Fixed
+- Crowdin configuration file.
+
 ## [2.16.3] - 2023-01-02
 
 ### Added

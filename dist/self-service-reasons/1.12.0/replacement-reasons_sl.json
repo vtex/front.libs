@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "sl",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Odpošiljanje",
+      "description": {
+        "title": "Ko posodobite informacije o dobavi:",
+        "disclaimers": [
+          "Novo naročilo bo oddano v trgovini z enakimi izdelki",
+          "Trenutno naročilo bo samodejno preklicano",
+          "Trenutna bremenitev bo povrnjena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Posodobiti moram svoj naslov za dobavo",
+          "value": ""
+        },
+        {
+          "label": "Želim drugo možnost odpošiljanja",
+          "value": ""
+        },
+        {
+          "label": "Želim prestaviti datum dobave",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Osebne informacije",
+      "description": {
+        "title": "Ko posodabljate osebne informacije:",
+        "disclaimers": [
+          "Novo naročilo bo oddano v trgovini z enakimi izdelki in cenovnimi pogoji",
+          "Trenutno naročilo bo samodejno preklicano",
+          "Trenutna bremenitev bo povrnjena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kontaktna telefonska številka je napačna, rad bi jo spremenil",
+          "value": ""
+        },
+        {
+          "label": "Moji osebni podatki so napačni",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Plačilo",
+      "description": {
+        "title": "Ko posodabljate informacije o plačilu:",
+        "disclaimers": [
+          "Novo naročilo bo oddano v trgovini z enakimi izdelki",
+          "Trenutno naročilo bo samodejno preklicano",
+          "Trenutna bremenitev bo povrnjena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Želim spremeniti število obrokov, izbranih za mojo kreditno kartico",
+          "value": ""
+        },
+        {
+          "label": "Želim spremeniti izbran način plačila",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Spremeni različico izdelka",
+      "description": {
+        "title": "Ko spremenite različico izdelka:",
+        "disclaimers": [
+          "Novo naročilo bo oddano v trgovini z enakimi izdelki",
+          "Trenutno naročilo bo samodejno preklicano",
+          "Trenutna bremenitev bo povrnjena"
+        ]
+      },
+      "options": [
+        {
+          "label": "Kupil sem napačno številko/velikost in jo želim spremeniti",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "cat",
+  "groups": [
+    {
+      "id": "enviament",
+      "name": "Enviament",
+      "description": {
+        "title": "En actualitzar la informació de lliurament:",
+        "disclaimers": [
+          "Es farà una nova comanda a la botiga amb els mateixos productes",
+          "Es cancel·larà automàticament la comanda actual",
+          "Es reembossarà el cobrament actual"
+        ]
+      },
+      "options": [
+        {
+          "label": "He d'actualitzar la meva adreça de lliurament",
+          "value": ""
+        },
+        {
+          "label": "Vull una opció d'enviament diferent",
+          "value": ""
+        },
+        {
+          "label": "Vull tornar a programar la data de lliurament",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "perfil",
+      "name": "Informació personal",
+      "description": {
+        "title": "En actualitzar la informació personal:",
+        "disclaimers": [
+          "Es farà una nova comanda a la botiga amb els mateixos productes i preus",
+          "Es cancel·larà automàticament la comanda actual",
+          "Es reembossarà el cobrament actual"
+        ]
+      },
+      "options": [
+        {
+          "label": "El número de telèfon de contacte és erroni i vull canviar-lo",
+          "value": ""
+        },
+        {
+          "label": "La meva informació personal és incorrecta",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "pagament",
+      "name": "Pagament",
+      "description": {
+        "title": "En actualitzar la informació de pagament:",
+        "disclaimers": [
+          "Es farà una nova comanda a la botiga amb els mateixos productes",
+          "Es cancel·larà automàticament la comanda actual",
+          "Es reembossarà el cobrament actual"
+        ]
+      },
+      "options": [
+        {
+          "label": "Vull canviar el nombre de terminis seleccionat per a la meva targeta de crèdit",
+          "value": ""
+        },
+        {
+          "label": "Vull canviar el tipus de pagament seleccionat",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Canvi de la variació del producte",
+      "description": {
+        "title": "En canviar la variació del producte:",
+        "disclaimers": [
+          "Es farà una nova comanda a la botiga amb els mateixos productes",
+          "Es cancel·larà automàticament la comanda actual",
+          "Es reembossarà el cobrament actual"
+        ]
+      },
+      "options": [
+        {
+          "label": "He comprat el número o la talla erronis i vull fer un canvi",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
