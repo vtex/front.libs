@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "sl",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Preklic",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Trenutno naročilo bo preklicano",
+          "Preklic se ne more razveljaviti"
+        ]
+      },
+      "options": [
+        {
+          "label": "Tega izdelka ne želim več.",
+          "value": ""
+        },
+        {
+          "label": "Kupil sem po pomoti.",
+          "value": ""
+        },
+        {
+          "label": "Pošiljanje bo trajalo predolgo.",
+          "value": ""
+        },
+        {
+          "label": "Našel sem ga drugje za boljšo ceno.",
+          "value": ""
+        },
+        {
+          "label": "Raje ne bi povedal.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

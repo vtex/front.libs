@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Version `1.13.0` for `self-service-reasons` with new translations for Thai (th).
+
+### Fixed
+- Crowdin configuration file.
+
 ## [2.17.0] - 2023-01-05
 
 ### Added
