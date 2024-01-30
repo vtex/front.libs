@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "id",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Pengiriman",
+      "description": {
+        "title": "Saat Anda memperbarui info pengiriman:",
+        "disclaimers": [
+          "Pesanan baru akan ditempatkan di toko dengan produk yang sama",
+          "Pesanan saat ini akan otomatis",
+          "Biaya saat ini akan dikembalikan dananya"
+        ]
+      },
+      "options": [
+        {
+          "label": "Saya perlu memperbarui alamat pengiriman saya",
+          "value": ""
+        },
+        {
+          "label": "Saya menginginkan opsi pengiriman lain",
+          "value": ""
+        },
+        {
+          "label": "Saya ingin menjadwalkan ulang tanggal pengiriman",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Informasi Pribadi",
+      "description": {
+        "title": "Saat memperbarui informasi pribadi:",
+        "disclaimers": [
+          "Pesanan baru akan dibuat di toko dengan kondisi produk dan harga yang sama",
+          "Pesanan saat ini akan otomatis",
+          "Biaya saat ini akan dikembalikan dananya"
+        ]
+      },
+      "options": [
+        {
+          "label": "Nomor telepon kontak salah, saya ingin mengubahnya",
+          "value": ""
+        },
+        {
+          "label": "Informasi pribadi saya salah",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Pembayaran",
+      "description": {
+        "title": "Saat memperbarui informasi pembayaran:",
+        "disclaimers": [
+          "Pesanan baru akan dibuat di toko dengan produk yang sama",
+          "Pesanan saat ini akan otomatis dibatalkan",
+          "Biaya saat ini akan dikembalikan dananya"
+        ]
+      },
+      "options": [
+        {
+          "label": "Saya ingin mengubah jumlah cicilan yang dipilih untuk kartu kredit saya",
+          "value": ""
+        },
+        {
+          "label": "Saya ingin mengubah jenis pembayaran yang dipilih",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Ubah variasi produk",
+      "description": {
+        "title": "Saat Anda mengubah variasi produk:",
+        "disclaimers": [
+          "Pesanan baru akan ditempatkan di toko dengan produk yang sama",
+          "Pesanan saat ini akan otomatis",
+          "Biaya saat ini akan dikembalikan dananya"
+        ]
+      },
+      "options": [
+        {
+          "label": "Saya membeli ukuran/nomor yang salah dan ingin menggantinya",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
