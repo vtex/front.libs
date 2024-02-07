@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "es",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Entrega",
+      "description": {
+        "title": "Cuando actualiza la información de entrega:",
+        "disclaimers": [
+          "Un nuevo pedido será creado en la tienda con los mismos productos",
+          "El pedido actual se cancelará automáticamente",
+          "El pago actual será devuelto"
+        ]
+      },
+      "options": [
+        {
+          "label": "Necesito actualizar la dirección de entrega",
+          "value": ""
+        },
+        {
+          "label": "Necesito una opción de flete diferente.",
+          "value": ""
+        },
+        {
+          "label": "Necesito reprogramar la fecha de entrega",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Datos Personales",
+      "description": {
+        "title": "Cuando actualiza sus datos personales:",
+        "disclaimers": [
+          "Un nuevo pedido será creado en la tienda con los mismos productos y condiciones",
+          "El pedido actual se cancelará automáticamente",
+          "El pago actual será devuelto"
+        ]
+      },
+      "options": [
+        {
+          "label": "El teléfono para contacto es incorrecto, necesito actualizarlo",
+          "value": ""
+        },
+        {
+          "label": "Mis datos personales estan incorreto.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Pagamiento",
+      "description": {
+          "title": "Cuando actualiza medios de pago:",
+        "disclaimers": [
+          "Un nuevo pedido será creado en la tienda con los mismos productos",
+          "El pedido actual se cancelará automáticamente",
+          "El pago actual será devuelto"
+        ]
+      },
+      "options": [
+        {
+          "label": "Quiero modificar el número de cuotas seleccionadas en mi tarjeta",
+          "value": ""
+        },
+        {
+          "label": "Quiero cambiar el medio de pago seleccionado",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Cambiar variación de producto",
+      "description": {
+        "title": "Cuando cambia la variación del producto",
+        "disclaimers": [
+          "Un nuevo pedido será creado en la tienda con los mismos productos",
+          "El pedido actual se cancelará automáticamente",
+          "El pago actual será devuelto"
+        ]
+      },
+      "options": [
+        {
+          "label": "Compré la numeración/talle incorrecto",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
