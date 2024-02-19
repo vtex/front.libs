@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.17.2] - 2024-02-19
+
 ### Fixed
 - Spanish translations
 
@@ -139,10 +141,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Version `1.0.5` for `self-service-reasons` with fixed translations and new translations for CS and NL.
 
 
-[Unreleased]: https://github.com/vtex/front.libs/compare/v2.17.1...HEAD
+[Unreleased]: https://github.com/vtex/front.libs/compare/v2.17.2...HEAD
 [2.13.0]: https://github.com/vtex/front.libs/compare/v2.12.0...v2.13.0
 [2.12.0]: https://github.com/vtex/front.libs/compare/v2.11.7...v2.12.0
 [2.16.0]: https://github.com/vtex/front.libs/compare/v2.15.0...v2.16.0
+[2.17.2]: https://github.com/vtex/front.libs/compare/v2.17.1...v2.17.2
 [2.17.1]: https://github.com/vtex/front.libs/compare/v2.17.0...v2.17.1
 [2.17.0]: https://github.com/vtex/front.libs/compare/v2.16.3...v2.17.0
 [2.16.3]: https://github.com/vtex/front.libs/compare/v2.16.2...v2.16.3
