@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "pt",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Entrega",
+      "description": {
+        "title": "Ao alterar dados de entrega",
+        "disclaimers": [
+          "Será criado um novo pedido na loja com os mesmos produtos",
+          "O pedido atual será cancelado automaticamente",
+          "A cobrança atual será estornada"
+        ]
+      },
+      "options": [
+        {
+          "label": "Preciso atualizar o endereço de entrega.",
+          "value": ""
+        },
+        {
+          "label": "Quero uma opção de frete diferente.",
+          "value": ""
+        },
+        {
+          "label": "Quero remarcar o dia agendado para minha entrega.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Dados Pessoais",
+      "description": {
+        "title": "Ao alterar seus dados pessoais",
+        "disclaimers": [
+          "Será criado um novo pedido na loja com os mesmos produtos e condições",
+          "O pedido atual será cancelado automaticamente",
+          "A cobrança atual será estornada"
+        ]
+      },
+      "options": [
+        {
+          "label": "O telefone para contato está errado, gostaria de informar um novo.",
+          "value": ""
+        },
+        {
+          "label": "Meus dados pessoais estão incorretos.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Pagamento",
+      "description": {
+          "title": "Ao alterar dados de pagamento",
+        "disclaimers": [
+            "Será criado um novo pedido na loja com os mesmos produtos",
+          "O pedido atual será cancelado automaticamente",
+          "A cobrança atual será estornada"
+        ]
+      },
+      "options": [
+        {
+          "label": "Quero alterar o número de parcelas selecionadas no cartão de crédito.",
+          "value": ""
+        },
+        {
+          "label": "Quero trocar a forma de pagamento selecionada.",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Troca do Produto",
+      "description": {
+        "title": "Ao trocar a variação do produto",
+        "disclaimers": [
+          "Será criado um novo pedido na loja com os mesmos produtos",
+          "O pedido atual será cancelado automaticamente",
+          "A cobrança atual será estornada"
+        ]
+      },
+      "options": [
+        {
+          "label": "Comprei na numeração/tamanho errado",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
