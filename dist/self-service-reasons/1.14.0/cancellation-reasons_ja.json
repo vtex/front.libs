@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "ja",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "キャンセル",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "現在の注文はキャンセルされます",
+          "キャンセルは戻すことができません"
+        ]
+      },
+      "options": [
+        {
+          "label": "この製品はもう必要ありません。",
+          "value": ""
+        },
+        {
+          "label": "間違って購入しました。",
+          "value": ""
+        },
+        {
+          "label": "発送が遅すぎます。",
+          "value": ""
+        },
+        {
+          "label": "もっと安値で販売している場所を見つけました。",
+          "value": ""
+        },
+        {
+          "label": "無回答。",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
