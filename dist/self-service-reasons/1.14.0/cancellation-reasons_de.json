@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "de",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Stornierung",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Die aktuelle Bestellung wird storniert",
+          "Die Stornierung kann nicht rückgängig gemacht werden"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ich will dieses Produkt nicht mehr.",
+          "value": ""
+        },
+        {
+          "label": "Ich habe irrtümlich bestellt.",
+          "value": ""
+        },
+        {
+          "label": "Der Versand wird zu lange dauern.",
+          "value": ""
+        },
+        {
+          "label": "Ich habe es anderswo zu einem günstigeren Preis gefunden.",
+          "value": ""
+        },
+        {
+          "label": "Ich möchte darüber nicht sprechen.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
