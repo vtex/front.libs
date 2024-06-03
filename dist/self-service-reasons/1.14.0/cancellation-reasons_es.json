@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "es",
+  "groups": [
+    {
+      "id": "cancelación",
+      "name": "Cancelación",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "El pedido actual será cancelado",
+          "La cancelación no puede ser revertida"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ya no quiero este producto.",
+          "value": ""
+        },
+        {
+          "label": "Lo compré por error.",
+          "value": ""
+        },
+        {
+          "label": "El envío tardará demasiado.",
+          "value": ""
+        },
+        {
+          "label": "Lo encontré más barato en otro sitio.",
+          "value": ""
+        },
+        {
+          "label": "Prefiero no responder.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
