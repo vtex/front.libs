@@ -1,0 +1,37 @@
+{
+  "name": "cancelForm",
+  "locale": "pt",
+  "groups": [{
+    "id": "cancellation",
+    "name": "Cancelamento",
+    "description": {
+      "title": "",
+      "disclaimers": [
+        "O pedido atual será cancelado",
+        "O cancelamento não pode ser desfeito"
+      ]
+    },
+    "options": [
+      {
+        "label": "Não quero mais este produto.",
+        "value": ""
+      },
+      {
+        "label": "Comprei sem querer.",
+        "value": ""
+      },
+      {
+        "label": "A entrega vai demorar demais.",
+        "value": ""
+      },
+      {
+        "label": "Encontrei um preço melhor em outro lugar.",
+        "value": ""
+      },
+      {
+        "label": "Prefiro não informar.",
+        "value": ""
+      }
+    ]
+  }]
+}

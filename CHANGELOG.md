@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Version `1.12.1` for `cancellation-reasons` with fixed translations for Spanish (ES).
+
 ## [2.17.0] - 2023-01-05
 
 ### Added
