@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "id",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Pembatalan",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "Pesanan saat ini akan dibatalkan",
+          "Pembatalan tidak dapat diurungkan"
+        ]
+      },
+      "options": [
+        {
+          "label": "Saya tidak menginginkan produk ini lagi.",
+          "value": ""
+        },
+        {
+          "label": "Saya tak sengaja membelinya.",
+          "value": ""
+        },
+        {
+          "label": "Pengiriman akan terlalu lama.",
+          "value": ""
+        },
+        {
+          "label": "Saya menemukannya dengan harga lebih bagus di tempat lain.",
+          "value": ""
+        },
+        {
+          "label": "Saya memilih tidak menjawab.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
