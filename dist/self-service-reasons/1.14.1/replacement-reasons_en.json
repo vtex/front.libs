@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "en",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Shipping",
+      "description": {
+        "title": "When you update delivery info:",
+        "disclaimers": [
+          "A new order will be placed in the store with the same products",
+          "The current order will be canceled automatically",
+          "The current charge will be refunded"
+        ]
+      },
+      "options": [
+        {
+          "label": "I need to update my delivery address",
+          "value": ""
+        },
+        {
+          "label": "I want a different shipping option",
+          "value": ""
+        },
+        {
+          "label": "I want to reschedule the delivery date",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Personal Information",
+      "description": {
+        "title": "When updating personal information:",
+        "disclaimers": [
+          "A new order will be placed in the store with the same products and price conditions",
+          "The current order will be canceled automatically",
+          "The current charge will be refunded"
+        ]
+      },
+      "options": [
+        {
+          "label": "The contact phone number is wrong, I'd like to change it",
+          "value": ""
+        },
+        {
+          "label": "My personal information is incorrect",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Payment",
+      "description": {
+          "title": "When updating payment information:",
+        "disclaimers": [
+          "A new order will be placed in the store with the same products",
+          "The current order will be canceled automatically",
+          "The current charge will be refunded"
+        ]
+      },
+      "options": [
+        {
+          "label": "I want to change the number of installments selected for my credit card",
+          "value": ""
+        },
+        {
+          "label": "I want to change the selected payment type",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Change product variation",
+      "description": {
+        "title": "When you change the product variation:",
+        "disclaimers": [
+          "A new order will be placed in the store with the same products",
+          "The current order will be canceled automatically",
+          "The current charge will be refunded"
+        ]
+      },
+      "options": [
+        {
+          "label": "I bought the wrong number/size and want to change it",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

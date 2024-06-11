@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "nl",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Annulering",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "De huidige bestelling wordt geannuleerd",
+          "De annulering kan niet ongedaan worden gemaakt"
+        ]
+      },
+      "options": [
+        {
+          "label": "Ik wil dit product niet meer.",
+          "value": ""
+        },
+        {
+          "label": "Ik heb per ongeluk gekocht.",
+          "value": ""
+        },
+        {
+          "label": "De verzending duurt te lang.",
+          "value": ""
+        },
+        {
+          "label": "Ik heb het elders voor een betere prijs gevonden.",
+          "value": ""
+        },
+        {
+          "label": "Ik informeer het liever niet.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
