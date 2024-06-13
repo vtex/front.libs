@@ -1,0 +1,39 @@
+{
+  "name": "cancelForm",
+  "locale": "hu",
+  "groups": [
+    {
+      "id": "cancellation",
+      "name": "Rendelés törlése",
+      "description": {
+        "title": "",
+        "disclaimers": [
+          "A jelenlegi rendelés törlésre kerül",
+          "A törlést nem lehet visszafordítani"
+        ]
+      },
+      "options": [
+        {
+          "label": "Nem szeretném ezt a terméket.",
+          "value": ""
+        },
+        {
+          "label": "Véletlenül vásároltam meg.",
+          "value": ""
+        },
+        {
+          "label": "A szállítás túl sokáig fog tartani.",
+          "value": ""
+        },
+        {
+          "label": "Megtaláltam olcsóbban máshol.",
+          "value": ""
+        },
+        {
+          "label": "Nem szeretném megindokolni.",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
