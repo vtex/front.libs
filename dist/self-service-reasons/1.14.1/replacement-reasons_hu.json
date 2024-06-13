@@ -1,0 +1,94 @@
+{
+  "name": "sacForm",
+  "locale": "hu",
+  "groups": [
+    {
+      "id": "shipping",
+      "name": "Szállítás",
+      "description": {
+        "title": "Amikor frissíti a szállítási adatokat:",
+        "disclaimers": [
+          "Egy új rendelés lesz létrehozva ugyan azokkal a termékekkel",
+          "A jelenlegi rendelés automatikusan törlődni fog",
+          "A jelenlegi rendelés összege visszautalásra kerül"
+        ]
+      },
+      "options": [
+        {
+          "label": "Frissítenem kell a szállítási címemet",
+          "value": ""
+        },
+        {
+          "label": "Más szállítási lehetőséget szeretnék",
+          "value": ""
+        },
+        {
+          "label": "Módosítani szeretném a szállítás dátumát",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "name": "Személyes Adatok",
+      "description": {
+        "title": "Amikor frissíti a személyes adatokat:",
+        "disclaimers": [
+          "Egy új rendelés lesz létrehozva ugyan azokkal a termékekkel és kedvezményekkel",
+          "A jelenlegi rendelés automatikusan törlődni fog",
+          "A jelenlegi rendelés összege visszautalásra kerül"
+        ]
+      },
+      "options": [
+        {
+          "label": "A telefonszám hibás, szeretném megváltoztatni",
+          "value": ""
+        },
+        {
+          "label": "Személyes adataim helytelenek",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Fizetés",
+      "description": {
+        "title": "A fizetési adatok frissítésekor:",
+        "disclaimers": [
+          "Egy új rendelés lesz létrehozva ugyan azokkal a termékekkel",
+          "A jelenlegi rendelés automatikusan törlődni fog",
+          "A jelenlegi rendelés összege visszautalásra kerül"
+        ]
+      },
+      "options": [
+        {
+          "label": "Szeretném megváltoztatni a hitelkártyámon kiválasztott részletfizetési számot.",
+          "value": ""
+        },
+        {
+          "label": "Szeretném megváltoztatni a kiválasztott fizetési módot",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "Termékváltozatok módosítása",
+      "description": {
+        "title": "Amikor módosítja a termékváltozatokat:",
+        "disclaimers": [
+          "Egy új rendelés lesz létrehozva ugyan azokkal a termékekkel",
+          "A jelenlegi rendelés automatikusan törlődni fog",
+          "A jelenlegi rendelés összege visszautalásra kerül"
+        ]
+      },
+      "options": [
+        {
+          "label": "Nem a megfelelő mennyiséget/méretet vásároltam és szeretném megváltoztatni",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
